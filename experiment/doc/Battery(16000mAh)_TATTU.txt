@@ -1,0 +1,305 @@
+TATTU Unmanned System Battery
+
+* Important Safety Instructions and Warnings
+
+* You must read these safety instructions and warnings before using or charging your batteries.
+* Lithium Polymer batteries are volatile.
+  Failure to read and follow these instructions may result in fire, personal injury and damage to property.
+  Do not charge / discharge a battery in side your house, garage, building, or vehicle.
+* Tattu and its distributors and retailers assume no liability for failure to comply with these warnings and safety guidelines.
+* By purchasing this battery, the buyer assumes all risks associated with this product.
+  If you do not agree with these conditions, please return the battery immediately before use.
+
+- Before charging / discharging:
+
+1. Inspect the battery for any damages.
+   Do not charge a damaged battery.
+2. Inspect the battery for any swelling.
+   Do not charge a swellen battery.
+3. Inspect the battery for possible battery fluid leaks.
+   Do not charge a leaking battery.
+4. Inspect the voltage for each battery cell, if the cell voltage is significantly lower than the normal voltage(3.3V per cell) or voltage of each cell has significant difference.
+   The battery may be in defective condition.
+   Do not charge the battery.
+5. Make sure the wire connection polarity is correct; do not short circuit the battery.
+6. Verify the lithium polymer charger is in good condition.
+
+- Charging / Discharging the battery:
+
+Please follow below instructions to setup the charging station.
+Failure to do so will cause a fire, which may result in serious personal injury an property damage.
+
+1. Use a fireproof cement concrete bunker or fireproof material flower pot as the charging container.
+2. Put the charging container on a cement concrete floor.
+3. The horizontal clearance radius for the charging container should be at least 5 feet.
+4. The vertical clearance for the charging container should be at least 10 feet.
+5. Cover the charging container with a fireproof material cover.
+6. Never leave while battery is in charging process.
+   Do not charge the battery unattended.
+7. In case of fire, disconnect the electrical wire from the electrical outlet immediately.
+8. Do not put any combustible materials near the charging area.
+
+- Storing the battery:
+
+Please follow below instructions to setup the storing station.
+Failure to do so will cause a fire, which may result in serious personal injury and property damage.
+
+1. Use a fireproof cement concrete bunker or fireproof material flower pot as the storage container.
+2. Put the storage container on a cement concrete floor.
+3. The horizontal clearance radius for the storage container should be at least 2 feet.
+4. The vertical clearance for the storage container should be at least 10 feet.
+5. Cover the storage container with a fireproof material cover.
+6. Constantly check the condition of the battery in side the storage container at least once a week.
+   Do not leave the battery unattended for a long period of time.
+7. Do not put any combustible materials near the storage container.
+8. Store batteries in a location with room temperature only.
+9. Verify the battery is in good condition before storage.
+
+- Using the battery: Using the battery:
+
+1. Inspect the battery for any damages.
+   Do not use a damaged battery.
+2. Inspect the battery for swelling.
+   Do not use a swellen battery.
+3. Inspect the battery for possible battery fluid leaks.
+   Do not use a leaking battery.
+4. Inspect the voltage for each cell.
+   If the cell voltage is significantly lower than the normal voltage(3.3V per cell) or voltage of each cell has significant difference, the battery may be in defective condition.
+   Do not use the battery.
+5. Make sure the wire connection polarity is correct; do not short circuit the battery.
+
+- Lithum Polymer(Lipo) battery warnings
+
+1. Never charge a lithum battery with a charger designed for NiCd, NiMH, or any other type of battery chemistry.
+   Use ONLY charger designed for LiPo battery.
+   Failure to do so may cause a fire, which may result in personal injury and property damage.
+2. Battery charging/discharging and observation should occur in an isolated safe location outside of any building or vehicle and away from any combustible material.
+   The middle of cement driveway is a good example of a safe location.
+   Never charge/discharge the battery inside the house, garage and vehicle.
+3. It is solely user's responsibility to assure that the charger used in the charging/discharging process works properly.
+   Only charge LiPo batteries with a good quality Lithium Polymer balanced charge.
+   Failure to do so may cause a fire, which may result in personal injury and property damage.
+4. Inspect the battery before the charging/discharging and storage process.
+   Check for damage, leaks, broken connectors, and puffiness.
+   Check the battery voltage.
+   Normal Voltage should be approximately between 3.3V-4.2 per cell.
+   If the voltage is significantly less than the normal voltage(less than 3.3V per cell), do not charge/discharge the pack.
+5. The charging rate should not exceed 1C(one time the capacity of the battery, for example: charge an 800 mAh battery at or below 0.8A, charging a 3000 mAh battery at or below 3A).
+   Higher charging rate may damage the battery and result in fire.
+6. Charge/discharge each battery pack individually.
+   Set the cell count, charging current, and voltage on the charger for the charging/discharging process correctly.
+7. Do not over charge/discharge the battery: doing so will damage the battery.
+   Do not discharge the battery.
+   Do not discharge a battery pack to a level below 3.3V per cell.
+8. Do not use batteries that lose 20% of their capacity.
+9. Do not leave LiPo battery unattended during the charging/discharging process.
+   During the charging/discharging process, user should monitor the process constantly and react to potential problem that may occur.
+10. Always place the battery in a fire resistant surface or fire safety container alone when charging/discharging.
+    The middle of a cement dirveway is a good example of a safe location.
+    Do not charge/discharge battery inside house, garage, vehicle, building and away from any combustible material.
+11. Always store the battery in a fire resistant surface or fire safety container alone.
+    Do not store battery inside house, garage, vehicle, building and away from any combustible material.
+12. Do not continue to use damage battery, Send damage battery to certified recycling facility as soon as possible.
+13. Allow battery to cool down to normal temperature before recharging.
+    Never exceed 140 degrees F during the charging/discharging process.
+14. Shorts circuit the battery can cause fires!
+    If you accidentally short the battery, you should place the battery in a safe area for observation for approximately 30 minutes.
+15. Never modify the battery by yourself.
+    If you need to cut the terminal wires, soldering connectors, please consult an experienced user before operation.
+16. Use the battery with care and avoid puncture to the battery.
+    Puncturing a LiPo battery can cause fire.
+17. Store batteries at room temperature between 40 to 70 digrees F.
+    Never store battery pack inside you vehicle if the internal temperature exceeds 120 degrees F.
+    If storing for a period of time(more than a week), batteries should be stored at 3.8V to 3.9V per cell.
+18. Never expose battery under direct sunlight or heat for extended periods of time.
+    Expose batteries at temperature greater than 140 degrees F for extended period of time(more than 30 minutes) may result in damage to the batteries and possible fire.
+19. Inspect batteries if crash, battery should be placed in a safe area for observation for at least 30 minutes after crash.
+20. Do not expose LiPo cells to overheat at any time.
+    Cells which reach greater than 140 degrees F will usually become damaged and will catch fire.
+21. Do not expose LiPo cell to water or moisture at any time.
+22. Do not assemble LiPo cells or pre-assembles packs together with other LiPo cells or packs.
+23. Always store LiPo battery in a secure location away from children.
+24. Always remove the LiPo battery if model is involved in any kind of crash.
+    Carefully inspect the battery and connectors for even for the smallest damage.
+    CAUTION: cells may be hot!
+25. Do not allow the electrolyte to get into eyes or on skin.
+    Wash affected areas immediately if they come into contact with electrolyte.
+    Do not alter or modify connectors or wires of a LiPo battery pack.
+26. Do not have contact with a leaky/damaged battery directly.
+27. Do not charge/discharge battery at of recommended temperature range(Charge: 32 to 110 degrees F; Discharge: 32 to 140 Degrees F)
+28. Do not charge/discharge process, if at any time you witness a battery starting or swell up, discontinue the charging/discharging process immediately.
+    Disconnect the battery and place it in a safe observation area for approximately 30 minutes.
+    Continuing to charge a battery that has begun to swell result in fire.
+
+By purchasing and using this battery, the buyer and user assumes all risks associated with this product.
+If you do not agree with these conditions, do not proceed to use the battery.
+You must read the above safety instructions and warnings before charging/discharging your batteries.
+Manufacturers, distributors, and retailers assume to liability for failure to complywith the warning and safety guidelines.
+
+This product is for experienced adult remote control users only.
+It is not recommended for children under the age of 18.
+All minors should be accompanied by an adult when operating a Li-Po battery.
+
+This product requires proper operating knowledge to avoid any accidents.
+Failure to take caution when operating this product may result in serious injury or property damage.
+It is the owner's responsibility to operate this product in a safe manner.
+Manufactureres and its distributors are not responsible for any bodily injury(s) and/or property damage that may occur from the use of or caused by this product.
+
+
+
+*** 중요한 안전 지침 및 경고 ***
+
+* 배터리를 사용하거나 충전하기 전에 이 안전 지침과 경고를 읽어야 한다.
+* 리튬 폴리머 배터리는 휘발성이다.
+  이 지침을 읽고 따르지 않으면 화재, 신체 상해 및 재산 피해가 발생 할 수 있다.
+  집, 차고, 건물 또는 차량에서 배터리를 충/방전하지 말라.
+* Tattu 와 유통 업체 및 소매 업체는 이러한 경고 및 안전 지침을 준수하지 않은 경우 책임을 지지 않는다.
+* 이 배터리를 구매하면 구매자는 이 제품과 관련된 모든 위험을 감수해야 한다.
+  이러한 조건에 동의하지 않으면 사용 직전에 배터리를 반환하라.
+
+- 충전 / 방전 이전:
+
+1. 배터리의 손상 여부를 검사하라.
+   손상된 배터리를 충전하지 말라.
+2. 배터리의 팽창을 검사하라.
+   부풀어 오른 배터리를 충전하지 말라.
+3. 배터리 액체 누출 가능성을 검사한다.
+   누출된 배터리를 충전하지 말라.
+4. 셀 전압이 정상 전압(셀 당 3.3V) 보다 현저히 낮거나
+   각 셀의 전압이 큰 차이가 나는 경우 각 배터리 셀의 전압을 검사한다.
+   배터리 상태가 불량 일 수 있다.
+   배터리를 충전하지 말라.
+5. 전선 연결 극성이 올바른지 확인하라.
+   배터리를 단락시키지 말라.
+6. 리튬 폴리머 충전기가 양호한 상태인지 확인하라.
+
+- 배터리 충전 / 방전:
+
+아래의 지침에 따라 충전 스테이션을 설정하라.
+그렇게 하지 않으면 화재가 발생하여 심각한 부상으로 재산 피해가 발생할 수 있다.
+
+1. 내화성 콘크리트 벙커 또는 내화 물질 화분을 충전용 컨테이너로 사용하라.
+2. 충전 컨테이너를 시멘트 콘크리트 바닥에 놓는다.
+3. 충전 용기의 수평 여유 반경은 5 피트 이상이어야 한다.
+4. 충전 컨테이너의 수직 간격은 최소 10 피트 이상이어야 한다.
+5. 충전 용기를 내화 재료 덮개로 덮는다.
+6. 배터리가 충전 중에는 절대로 떠나지 말라.
+   무인 상태로 배터리를 충전하지 말라.
+7. 화재가 발생하면 전기 배선을 즉시 콘센트에서 분리한다.
+8. 가연성 물질을 충전 구역 근처에 두지 말라.
+
+- 배터리 보관:
+
+보관 장소를 설정하려면 아래 지침을 따르라.
+그렇게 하지 않으면 화재가 발생하여 심각한 신체적 상해 및 재산 피해를 초래 할 수 있다.
+
+1. 내화성 콘크리트 벙커 또는 내화제 화분을 저장 용기로 사용한다.
+2. 저장 용기를 시멘트 콘크리트 바닥에 놓는다.
+3. 보관 용기의 수평 여유 반경은 2 피트 이상이어야 한다.
+4. 보관 용기의 수직 간격은 최소 10 피트 이상이어야 한다.
+5. 내화성 물질 덮개로 저장 용기를 덮는다.
+6. 적어도 일주일에 한 번 저장 용기 측면에서 배터리의 상태를 지속적으로 점검하라.
+   배터리를 장시간 방치하지 말라.
+7. 저장 용기 근처에 가연성 물질을 두지 말라.
+8. 배터리는 상온에서만 보관하라.
+9. 보관하기 전에 배터리가 양호한 상태인지 확인하라.
+
+- 배터리 사용:
+
+1. 배터리의 손상 여부를 검사한다.
+   손상된 배터리를 사용하지 말라.
+2. 배터리의 팽창을 검사하라.
+   부풀어 오른 배터리를 사용하지 말라.
+3. 배터리 액체 누출 가능성을 검사한다.
+   누출 된 배터리를 사용하지 말라.
+4. 각 셀의 전압을 검사하라.
+   셀 전압이 정상 전압(cell 당 3.3V) 보다 현저하게 낮거나
+   각 cell 의 전압에 큰 차이가 있으면 배터리의 상태가 불량 일 수 있다.
+   배터리를 사용하지 말라.
+5. 전선 연결 극성이 올바른지 확인하라.
+   배터리를 단락시키지 말라.
+
+- 리튬 폴리머(Lipo) 배터리 경고
+
+1.  NiCd, NiMH 또는 다른 유형의 배터리 화학 물질 용으로 설계된 충전기로 절대 리튬 배터리를 충전하지 말라.
+    LiPo 배터리 전용 충전기를 사용하라.
+    그렇게 하지 않으면 화재가 발생하여 부상이나 재산 피해가 발생 할 수 있다.
+2.  배터리 충전/방전 및 관찰은 건물이나 차량 외부의 격리 된
+    안전한 장소에서 이루어져야하며 가연성 물질과 멀리 떨어져 있어야 한다.
+    시멘트 진입로의 중간 지점은 안전한 위치의 좋은 예다.
+    집, 차고 및 차량 내부의 배터리를 충/방전하지 말라.
+3.  충전/방전 과정에서 사용되는 충전기가 올바르게 작동하는지 확인하는 것은 사용자의 책임이다.
+    양질의 리튬 폴리머 밸런스 충전으로만 LiPo 배터리를 충전하라.
+    그렇게 하지 않으면 화재가 발생하여 부상이나 재산 피해가 발생 할 수 있다.
+4.  충/방전 및 보관 과정 전에 배터리를 검사하라.
+    손상, 누출, 깨진 커넥터 및 붓기가 없는지 확인하라.
+    정상 전압은 대략 셀당 3.3V - 4.2V 사이어야 한다.
+    전압이 정상 전압(cell 당 3.3V 미만)보다 현저히 낮으면 팩을 충/방전 하지 말라.
+5.  충전 속도는 1C 를 초과하면 안된다(예: 배터리 용량의 1 배인 경우, 
+    800 mAh 배터리를 0.8A 로 충전하고 3000 mAh 배터리를 3A 이하로 충전함)
+    충전 속도가 높으면 배터리가 손상되어 화재가 발생 할 수 있다.
+6.  각 배터리 팩을 개별적으로 충전/방전 하라.
+    충전/방전 과정에서 충전기의 셀 수, 충전 전류 및 전압을 올바르게 설정하라.
+7.  배터리를 과충전/방전하지 말라.
+    그렇게 하면 배터리가 손상 된다.
+    전지 팩을 cell 당 3.3V 미만으로 방전하지 말라.
+8.  용량의 20% 를 소모하는 배터리를 사용하지 말라.
+9.  충전/방전 과정 중에 LiPo 배터리를 방치하지 말라.
+    충/방전 과정에서 사용자는 작업을 지속적으로 모니터링하고
+    발생 할 수 있는 잠재적 문제에 대응해야 한다.
+10. 충/방전시 배터리를 항상 내화성 표면 또는 화재 안전 컨테이너에 두라.
+    시멘트 집진로의 중간은 안전한 위치의 좋은 예다.
+    집, 차고, 차량, 건물 내부의 배터리를 충전하거나 방전시키지 말라.
+    가연성 물질에서 멀리 떨어지도록 해야 한다.
+11. 항상 배터리를 내화성 표면 또는 화재 안전 컨테이너에 보관하라.
+    배터리를 집, 차고, 차량, 건물 안에 저장하지 말고 가연성 물질로부터 멀리하라.
+12. 손상 된 배터리를 계속 사용하지 말라.
+    손상 된 배터리를 인증 된 수리 시설로 가능한 빨리 보내라.
+13. 재충전 전에 배터리를 정상 온도로 식혀라.
+    충전/방전 과정에서 절대 화씨 140 화씨(60 도씨)를 초과해서는 안 된다.
+14. 단락 회로 배터리가 화재를 일으킬 수 있다!
+    배터리를 실수로 단락시킨 경우 약 30 분 동안 배터리를 안전한 장소에 보관해야 한다.
+15. 혼자서 배터리를 개조하지 말라.
+    단자대를 자르고 커넥터를 납땜해야 하는 경우 작동 전에 숙련된 사용자에게 문의하라.
+16. 배터리를 조심스럽게 사용하고 배터리에 구멍이 나는 것을 방지하라.
+    LiPo 배터리를 찌르면 화재가 발생 할 수 있다.
+17. 실온에서 40 - 70 화씨(4.44444 ~ 21.1111 도씨)에 보관하라.
+    내부 온도가 120 화씨(48.8889 도씨)를 초과하면 배터리 팩을 차량 안에 보관하지 말라.
+    일정 기간(1 주일 이상) 보관할 경우 배터리는 3.8V ~ 3.9V / cell 로 저장해야 한다.
+18. 장시간 직사 광선이나 열에 노출시키지 말라.
+    140 화씨(60 도씨) 이상의 온도에서 장시간(30 분 이상) 배터리를 두면
+    배터리가 손상되고 화재가 발생 할 수 있다.
+19. 충돌이 발생한 경우 배터리를 검사하라.
+    배터리는 충돌 후 최소 30 분 동안 관찰을 위해 안전한 장소에 두어야 한다.
+20. LiPo cell 을 과열에 노출시키지 말라.
+    140 화씨(60 도씨)가 넘는 cell 은 보편적으로 손상되어 화재를 유발한다.
+21. LiPo cell 을 언제든지 물이나 습기에 노출시키지 말라.
+22. LiPo cell 을 조립하거나 다른 LiPo cell 또는 pack 과 함께 pack 을 사전 조립하지 말라.
+23. 항상 LiPo 배터리를 어린이의 안전한 장소에 보관하라.
+24. 어떤 종류의 충돌에도 모델이 포함되어 있다면 항상 LiPo 배터리를 제거하라.
+    배터리 및 커넥터가 작은 손상을 입었는지 조심스럽게 검사하라.
+    주의: 전지가 뜨거울 수 있다!
+25. 전해액이 눈이나 피부에 들어가지 않도록 하라.
+    영향을 받는 부위가 전해액과 접촉하면 즉시 씻으라.
+    LiPo 배터리 팩의 커넥터나 와이어를 변경하거나 수정하지 말라.
+26. 누출되거나 손상된 배터리와 직접 접촉하지 말라.
+27. 권장 온도 범위(충전: 32 ~ 100 화씨[0 ~ 43.3333 도씨], 
+    방전: 32 ~ 140 화씨[0 ~ 60 도씨])를 벗어나서 배터리를 충/방전하지 말라.
+28. 언제든지 배터리가 시동되거나 부풀어 오르는 것을 목격 할 경우 즉시 충전/방전 절차를 중단하라.
+    배터리를 분리하고 안전한 관찰 구역에 약 30 분 동안 두도록 한다.
+    부풀어 오르기 시작한 배터리를 계속 충전하면 화재가 발생한다.
+
+이 배터리를 구입하여 사용하면 구매자와 사용자는 이 제품과 관련된 모든 위험을 감수한다.
+이러한 조건에 동의하지 않으면 배터리를 사용하지 말라.
+배터리를 충전/방전하기 전에 위의 안전 지침과 경고를 읽어야 한다.
+제조 업체, 유통 업체 및 소매 업체는 경고 및 안전 지침을 준수하지 않은 경우 책임을 진다.
+
+이 제품은 숙련 된 성인용 RC 사용자만 사용할 수 있다.
+18 세 미만의 어린이에게는 권장되지 않는다.
+Li-Po 배터리를 사용하는 경우 모든 미성년자는 성인을 동반해야 한다.
+
+이 제품은 사고를 피하기 위해 적절한 작동 지식이 필요하다.
+이 제품을 작동할 때 주의를 기울이지 않으면 심각한 부상 또는 재산상의 손해가 발생 할 수 있다.
+이 제품을 안전한 방법으로 사용하는 것은 소유자의 책임이다.
+제조사와 대리점은 이 제품의 사용으로 인해 발생 할 수 있는
+신체적 상해 및/또는 재산상의 손해에 대해 책임을 지지 않는다.
