@@ -22,3 +22,7 @@ Autonomous RC Car for Baby
 - Wooseok Lee:			colre99@naver.com
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
+
+- Hoseong Lee:			hslee00001@naver.com
+
+![hoseong](./member_profile/hoseong_profile_1.jpg)
