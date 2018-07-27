@@ -5,7 +5,7 @@ Autonomous RC Car for Baby
 - Sanghoon Lee:			gcccompil3r@gmail.com
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
-<img src="https://github.com/KOITT2/RC_Car/member_profile/sanghoon_profile_1.jpg" width="64" height="64">
+<img src="https://github.com/KOITT2/RC_Car/tree/master/member_profile/sanghoon_profile_1.jpg" width="64" height="64">
 
 # Member
 - Sangyong Jung:		
