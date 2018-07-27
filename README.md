@@ -27,6 +27,10 @@ Autonomous RC Car for Baby
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
 
+- Hanna Moon:			mhn97@naver.com
+
+![hanna](./member_profile/hanna_profile_1.jpg)
+
 - Hoseong Lee:			hslee00001@naver.com
 
 ![hoseong](./member_profile/hoseong_profile_1.jpg)
@@ -66,3 +70,7 @@ Autonomous RC Car for Baby
 - Yoosung Lee:			dbtjd1102@naver.com
 
 ![yoosung](./member_profile/yoosung_profile_1.jpg)
+
+- Sungyong Ha:			accept0108@naver.com
+
+![sungyong](./member_profile/sungyong_profile_1.jpg)
