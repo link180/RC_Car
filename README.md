@@ -15,6 +15,10 @@ Autonomous RC Car for Baby
 
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
 
+- Daesung Choi:			c3d4s19@naver.com
+
+![daesung](./member_profile/daesung_profile_1.jpg)
+
 - Wooseok Lee:			colre99@naver.com
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
