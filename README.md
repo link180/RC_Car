@@ -26,3 +26,7 @@ Autonomous RC Car for Baby
 - Hoseong Lee:			hslee00001@naver.com
 
 ![hoseong](./member_profile/hoseong_profile_1.jpg)
+
+- Hyungjun Yu:			love592946@naver.com
+
+![hyungjun](./member_profile/hyungjun_profile_1.jpg)
