@@ -51,11 +51,23 @@ Radar Based Quadcopter RTF Kit Translation(Korean) - https://github.com/KOITT2/R
 
 - Sangyong Jung:		fstopdg@gmail.com
 
+![sunghwan](./member_profile/sunghwan_profile_1.jpg)
+
+- Sunghwan Jang:		redmk1025@gmail.com
+
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
 
 - Hyunwoo Park:			phw820@naver.com
 
 ![hyunwoo](./member_profile/hyunwoo_profile_1.jpg)
+
+- Siyun Kim:			glgltldbs@naver.com
+
+![hanbyul](./member_profile/hanbyul_profile_1.jpg)
+
+- Hanbyul Jung:			
+
+![siyun](./member_profile/siyun_profile_1.jpg)
 
 - Daesung Choi:			c3d4s19@naver.com
 
@@ -88,10 +100,6 @@ Radar Based Quadcopter RTF Kit Translation(Korean) - https://github.com/KOITT2/R
 - Sangjae Ahn:			sangjae2015@naver.com
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
-
-- Siyun Kim:			glgltldbs@naver.com
-
-![siyun](./member_profile/siyun_profile_1.jpg)
 
 - Soojeong Hwang:		sue100012@naver.com
 
