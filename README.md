@@ -29,6 +29,7 @@ Battery Charger - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ba
 Cortex-R5F Can Test - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf  
 Configuring CAN TMS570 Translation(Korean) - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Configuring%20CAN%20TMS570.txt  
 Cortex-R5F I2C Howto - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Cortex_R5_I2C_Howto.pdf  
+Cortex-R5F I2C MPU6050 Control - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_MPU6050_Control.pdf  
 Cortex-R5F HET PWM - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HET_PWM.pdf  
 I2C Communication Basic - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Comm.pdf  
 Cortex-R5F RTI GPIO OC Circuit Configuration - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RTI_GPIO_OC_Config.pdf  
