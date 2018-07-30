@@ -64,23 +64,39 @@ DSP CAN Test - https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c
 
 - Sangyong Jung:		fstopdg@gmail.com
 
-![sunghwan](./member_profile/sunghwan_profile_1.jpg)
+![sangyong](./member_profile/sangyong_profile_1.jpg)
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
-![sangyong](./member_profile/sangyong_profile_1.jpg)
+![sunghwan](./member_profile/sunghwan_profile_1.jpg)
+
+Cortex-R5F etPWM Analysis I - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf  
+Cortex-R5F etPWM Analysis II - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf  
+Cortex-R5F CAN Analysis - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf  
 
 - Hyunwoo Park:			phw820@naver.com
 
 ![hyunwoo](./member_profile/hyunwoo_profile_1.jpg)
 
+Introduction Buck Converter - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/BUCK%20CONVERTER%20.pdf  
+PSIM PID Control - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20PID%EC%A0%9C%EC%96%B4.pdf  
+PSIM Control I - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%201.pdf  
+PSIM Control II - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%202.pdf  
+SMPS Power Electronics 3 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS-chapter3.pdf  
+
+Cortex-R5F Based ESC Calibration - https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf  
+
+1st Mission - https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf  
+2nd Mission - https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf
+3rd Mission - https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf  
+
 - Siyun Kim:			glgltldbs@naver.com
 
-![hanbyul](./member_profile/hanbyul_profile_1.jpg)
+![siyun](./member_profile/siyun_profile_1.jpg)
 
 - Hanbyul Jung:			
 
-![siyun](./member_profile/siyun_profile_1.jpg)
+![hanbyul](./member_profile/hanbyul_profile_1.jpg)
 
 - Daesung Choi:			c3d4s19@naver.com
 
