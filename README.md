@@ -11,9 +11,9 @@ Autonomous RC Car for Baby
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
 
-LC Resonance - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf
-SMPS Power Electronics 1 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf
-SMPS Power Electronics 5 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf
+LC Resonance - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf  
+SMPS Power Electronics 1 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf  
+SMPS Power Electronics 5 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf  
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
