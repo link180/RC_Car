@@ -150,6 +150,8 @@ Cortex-R5F Based I2C Lidar Control - https://github.com/KOITT2/RC_Car/blob/9971a
 
 ![jihee](./member_profile/jihee_profile_1.jpg)
 
+1st Mission(DMA) - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf  
+
 - Jiwan Yoon:			yoonjw7894@naver.com
 
 ![jiwan](./member_profile/jiwan_profile_1.jpg)
