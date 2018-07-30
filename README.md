@@ -109,6 +109,16 @@ Cortex-R5F Based ESP8266 Wi-Fi Connection - https://github.com/KOITT2/RC_Car/blo
 
 ![hanbyul](./member_profile/hanbyul_profile_1.jpg)
 
+SMPS Power Electronics 4 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/4%EC%9E%A5%20(1).pdf  
+How to pick proper schottky diode Translation(Korean) - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/%EC%87%BC%ED%8A%B8%ED%82%A4%20%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EA%B8%B0%EC%A4%80.txt  
+
+Cortex-R5F Based ADC - https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf  
+Cortex-R5F Based SCI - https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf  
+1st Mission - https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx
+2nd Mission - https://github.com/KOITT2/RC_Car/blob/3e1d94fe3b8ef09d47222f27d15276d1fd9153da/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_3%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C(DC_Converter).pdf  
+
+Various Useful Supporting to team!
+
 - Daesung Choi:			c3d4s19@naver.com
 
 ![daesung](./member_profile/daesung_profile_1.jpg)
