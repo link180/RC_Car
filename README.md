@@ -4,13 +4,16 @@ Autonomous RC Car for Baby
 |캡션1|캡션2|캡션3|
 |-|-|-|
 |행1|셀|셀|
-|행2|셀|셀|
-|행3||셀|셀||셀
+|행2|셀|셀
 
 # Master
 - Sanghoon Lee:			gcccompil3r@gmail.com
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
+
+LC Resonance - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf
+SMPS Power Electronics 1 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf
+SMPS Power Electronics 5 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
