@@ -1,0 +1,107 @@
+1. FPGA 란 무엇인가 ?
+
+예를 들어서 AND 회로를 만든다고 가정해보자.
+그렇다면 우리는 TR 2 개를 활용해서 AND 회로를 만들 수 있을 것이다.
+그리고 현재에 이르러 CPU 회로를 개발하는데 수십억개의 TR 이 집적된다.
+만약 우리가 아날로그 회로를 설계하듯이 CPU 를 개발하면 내용을 파악 할 수 있을까 ?
+10% 도 파악하지 못할 가능성이 높은데 FPGA 와 같은 논리로 설계해두면 어떨까 ?
+훨씬 명확하게 파악하기가 좋아질 것이다.
+이와 같은 이유로 현재는 IC 소자 개발에 FPGA 가 빠지지 않고 사용되고 있다.
+
+2. FPGA Zybo 보드에서 원하는 IP 를 설계하고 이를 SDK 에 붙여서 개발하고자 한다.
+   IP 설계가 완료되었다면 다음으로 진행하는 작업들이 무엇인지 기술하시오.
+
+FPGA Design 을 완료했다면 Design 이 올바른지 검증하고
+검증 이후에 합성을 진행하고 라우팅을 진행하고 비트 스트림을 생성해줘야 한다.
+이후에 SDK 를 실행시켜서 C 코드를 만들어주면 된다.
+
+3. FPGA Zybo 보드에서 Petalinux 를 함께 연동하여 작업하는 방법에 대해 간략히 기술하시오.
+
+앞서 SDK 에 연동하기 위한 작업(비트스트림까지)을 동일하게 해준다.
+이후에 petalinux-create, petalinux-config, petalinux-build 등등을 활용하여 커널 이미지를 완성한다.
+그 다음에 SD 카드에서 사용하기 위한 이미지를 만들고 SD 카드에 넣는다.
+이후 보드의 부팅 설정 점퍼를 SD 카드로 바꾸고 전원을 넣으면 된다.
+
+4. FPGA Zybo 보드에는 별도의 PWM 핀이 없다.
+   PWM 을 사용하고자 한다면 어떻게 해야하는가 ?
+
+PWM 과 동일한 동작을 하도록 별도의 IP 를 설계하던지
+혹은 타이머를 직접적으로 제어하여 동작하게 만들어줘야 한다.
+
+5. HLS 란 무엇인지 기술하시오.
+
+High Level Synthesis 라는 것으로 기존의 FPGA 는 로직이 커질 경우
+합성 및 시뮬레이션 시간이 굉장히 길어졌다.
+그러나 HLS 의 도입 이후 이 속도가 매우 빨라졌기 때문에 각광받고 있는 기술이다.
+또한 HLS 는 C++ 로 작업을 진행하기 때문에 기존의 SW 개발자들에게 유리하다 볼 수 있다.
+그러나 여전히 HW 를 모르면 제대로 작업 할 수 없다.
+
+6. hls_video.h 헤더 파일에 대해 기술하시오.
+
+첫 번째 헤더 파일은 HW 에 최적화 된 OpenCV 함수 및 유형을 정의한다.
+이 함수는 "hls" namespace 를 사용하여 호출해야하며 함수와 관련된 차원은 템플릿 인수를 통해 지정해야 한다.
+
+7. 아래의 HLS IP 코드를 보고 무엇을 하는 IP 인지 분석하시오.
+
+#include <hls_video.h>
+#include <stdint.h>
+void conv(uint8_t image_in[1080*1920],uint8_t image_out[1080*1920]){
+   const char coefficients[3][3] = { {-1,-2,-1},
+                                     { 0, 0, 0},
+                                     { 1, 2, 1} };
+ 
+   hls::Mat<1080,1920,HLS_8UC1> src;
+   hls::Mat<1080,1920,HLS_8UC1> dst;
+   hls::AXIM2Mat<1920,uint8_t,1080,1920,HLS_8UC1>(image_in,src);
+   hls::Window<3,3,char> kernel;
+   for (int i=0;i<3;i++){
+      for (int j=0;j<3;j++){
+         kernel.val[i][j]=coefficients[i][j];
+      }
+   }
+   hls::Point_<int> anchor = hls::Point_<int>(-1,-1);
+   hls::Filter2D(src,dst,kernel,anchor);
+   hls::Mat2AXIM<1920,uint8_t,1080,1920,HLS_8UC1>(dst,image_out);
+}
+
+위 코드는 1080 x 1920 HD 회색 이미지를 입력인 image_in 으로 받아들인다.
+그리고 하드 코딩 된 3 by 3 커널로 2D Convolution 을 수행한다.
+처리 된 이미지를 image_out 배열에 저장한다.
+
+8. 7 번 문제의 코드에서 3 by 3 행렬에 대해 기술하시오.
+
+이 행렬은 결국 Sobel Filter 에 해당한다.
+결국 Convolution 을 통해서 FIR 필터 방식을 적용했다 판정해도 무방하다.
+
+9. 이후에 아래와 같은 테스트 벤치 코드를 작성했다 가정한다.
+   아래 코드를 실행하면 어떠한 결과가 나올지 기술하시오.
+
+#include <hls_opencv.h>
+#include <stdint.h>
+#include <stdio.h>
+
+using namespace cv;
+
+void conv(uint8_t * image_in, uint8_t * image_out);
+
+int main(){
+   Mat im = imread("test.jpg",CV_LOAD_IMAGE_GRAYSCALE);
+   uint8_t image_in[1080*1920];
+   uint8_t image_out[1080*1920];
+   memcpy(image_in,im.data,sizeof(uint8_t)*1080*1920);
+   conv(image_in,image_out);
+   Mat out = Mat(1080,1920,CV_8UC1,image_out);
+   namedWindow("test");
+   imshow("test",out);
+   waitKey(0);
+ 
+   return 0;
+}
+
+Sobel Filter 는 Edge Detection 에 활용하는 필터다.
+그러므로 집어넣은 이미지의 Edge 부분만 추출하여 출력될 것임을 알 수 있다.
+
+10. FPGA 분야에서 이야기 하는 PL 과 PS 가 무엇인지 기술하시오.
+
+PL 은 Programmable Logic 으로 아날로그 회로를 프로그래밍 하는 영역을 의미하며
+PS 는 Processing System 으로 Linux 와 같은 시스템을 의미한다.
