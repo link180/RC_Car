@@ -123,6 +123,8 @@ Various Useful Supporting to team!
 
 ![daesung](./member_profile/daesung_profile_1.jpg)
 
+PID Block Diagram - https://github.com/KOITT2/RC_Car/blob/c5f8b870159f64f59a961838aff001293c3cb9c6/experiment/doc/PID%20Block%20Diagram.pdf  
+
 - Wooseok Lee:			colre99@naver.com
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
@@ -130,6 +132,11 @@ Various Useful Supporting to team!
 - Hanna Moon:			mhn97@naver.com
 
 ![hanna](./member_profile/hanna_profile_1.jpg)
+
+Cortex-R5F Based I2C Lidar Control - https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf  
+
+1st Mission - https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf  
+2nd Mission - https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf  
 
 - Hoseong Lee:			hslee00001@naver.com
 
@@ -151,13 +158,25 @@ Various Useful Supporting to team!
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
 
+Cortex-R5F Based eQEP TRM Analysis - https://github.com/KOITT2/RC_Car/blob/b474b0e4c22217db033a3d1bc65639d203444aa2/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/eQEP_0725.pdf  
+Cortex-R5F Based SPI Analysis & Loopback Test - https://github.com/KOITT2/RC_Car/blob/9219044272f63e2aea244204703a762cc924a63b/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%ED%86%B5%EC%8B%A0%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20Loopback%20%EA%B5%AC%ED%98%84.pdf  
+
+Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade - https://github.com/KOITT2/RC_Car/blob/9f90c025ba363fa29cf6b206d5bd31125a4a26d3/test/test/1%EC%A3%BC%EC%B0%A8/wifi%20%EB%AA%A8%EB%93%88%20%ED%8E%8C%EC%9B%A8%EC%96%B4%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.pdf  
+
 - Soojeong Hwang:		sue100012@naver.com
 
 ![soojeong](./member_profile/soojeong_profile_1.jpg)
 
+1st Mission - https://github.com/KOITT2/RC_Car/blob/c43a61869a53e8f6a671bfb69c1f917942eff059/cur_present/180711_1.pdf  
+2nd Mission(I2C) - https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf  
+3rd Mission(I2C) - https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf  
+
 - Yukyoung Chung:		ucong@naver.com
 
 ![yukyoung](./member_profile/yukyoung_profile_1.jpg)
+
+1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180711_1%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EB%B8%94%EC%BD%A9%EC%B9%B4.pdf  
+2nd Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf  
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
@@ -170,3 +189,5 @@ Various Useful Supporting to team!
 - Sungyong Ha:			accept0108@naver.com
 
 ![sungyong](./member_profile/sungyong_profile_1.jpg)
+
+1st Mission - https://github.com/KOITT2/RC_Car/blob/ccdc85d21cb431de748dff5812b0fff4dc35d586/_1%EC%A3%BC%EC%B0%A8%200711_%ED%95%98%EC%84%B1%EC%9A%A9.pdf  
