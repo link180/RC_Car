@@ -52,18 +52,14 @@ int main(void)
 |Understanding Encoder|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf)|
 |Cortex-R5F Based BLDC Motor Manual Calibration I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf)|
 |Cortex-R5F Based BLDC Motor Manual Calibration II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf)|
-
-Mastering Kalman Filter - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf  
-
-FPGA Zynq Zybo Based MPU6050 Control - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Zynq_Zybo_Based_MPU6050_Control.pdf  
-
-All of statistics Library - https://github.com/KOITT2/RC_Car/tree/master/experiment/statistics  
-Character Set Conversion - https://github.com/KOITT2/RC_Car/tree/master/experiment/char_set  
-Control Theory Test - https://github.com/KOITT2/RC_Car/tree/master/experiment/control_theory  
-Zynq Zybo Device Driver User Code - https://github.com/KOITT2/RC_Car/tree/master/experiment/zynq  
-
-MissionPlanner on Linux - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf  
-Radar Based Quadcopter RTF Kit Translation(Korean) - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf  
+|Mastering Kalman Filter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf)|
+|FPGA Zynq Zybo Based MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Zynq_Zybo_Based_MPU6050_Control.pdf)|
+|All of statistics Library|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/statistics)|
+|Character Set Conversion|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/char_set)|
+|Control Theory Test|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/control_theory)|
+|Zynq Zybo Device Driver User Code|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/zynq)|
+|MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
+|Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
