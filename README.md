@@ -37,6 +37,8 @@ Pmod CAN Control with Zynq Zybo - https://github.com/KOITT2/RC_Car/blob/master/e
 SPI Communication Basic - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Comm.pdf  
 Cortex-R5F SPI Loopback - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Loopback.pdf  
 Understanding Encoder - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf  
+Cortex-R5F Based BLDC Motor Manual Calibration I - https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf  
+Cortex-R5F Based BLDC Motor Manual Calibration II - https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf  
 
 Mastering Kalman Filter - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf  
 
@@ -69,6 +71,9 @@ DSP CAN Test - https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c
 - Sangyong Jung:		fstopdg@gmail.com
 
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
+
+C Language Summary - https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf  
+MCU Core Function Summary - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf  
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
@@ -108,6 +113,7 @@ Cortex-R5F Based eCAP Analysis - https://github.com/KOITT2/RC_Car/blob/b2e2af9e2
 Cortex-R5F Based ESP8266 Wi-Fi Connection - https://github.com/KOITT2/RC_Car/blob/0a3cd1bb436c92cf9063173959813e6d0ee04bbc/experiment/doc/esp8266/ESP8266_Connect_WiFi.pdf  
 
 1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf  
+2nd Mission - https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf  
 
 - Hanbyul Jung:			
 
