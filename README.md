@@ -30,9 +30,9 @@ int main(void)
 |SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
 |SMPS Power Electronics 5|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf)|
 
-1st Week Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf  
-2nd Week Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf  
-3rd Week Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_3.pdf  
+|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf|
+|2nd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf|
+|3rd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_3.pdf|
 
 Full Architecture - https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf  
 Lidar Signal Processing Design - https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf  
