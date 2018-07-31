@@ -144,7 +144,7 @@ Cortex-R5F Based I2C Lidar Control - https://github.com/KOITT2/RC_Car/blob/9971a
 
 - Hoseong Lee:			hslee00001@naver.com
 
-![hoseong](./member_profile/hoseong_profile_1.jpg)
+![hoseong](./member_profile/hoseong_profile_2.jpg)
 
 - Hyungjun Yu:			love592946@naver.com
 
