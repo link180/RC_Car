@@ -35,24 +35,23 @@ int main(void)
 |4th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_4.pdf)|
 |Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
 |Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
-
-AM5728 FTDI USB 2 CAN - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf  
-AM5728 Wi-Fi Lab - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf  
-Battery(16000mAh) TATTU Translation to Korean - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt  
-Battery Charger - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf  
-Cortex-R5F Can Test - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf  
-Configuring CAN TMS570 Translation(Korean) - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Configuring%20CAN%20TMS570.txt  
-Cortex-R5F I2C Howto - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Cortex_R5_I2C_Howto.pdf  
-Cortex-R5F I2C MPU6050 Control - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_MPU6050_Control.pdf  
-Cortex-R5F HET PWM - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HET_PWM.pdf  
-I2C Communication Basic - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Comm.pdf  
-Cortex-R5F RTI GPIO OC Circuit Configuration - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RTI_GPIO_OC_Config.pdf  
-Pmod CAN Control with Zynq Zybo - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Pmod_CAN_Control_with_Zybo.pdf  
-SPI Communication Basic - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Comm.pdf  
-Cortex-R5F SPI Loopback - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Loopback.pdf  
-Understanding Encoder - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf  
-Cortex-R5F Based BLDC Motor Manual Calibration I - https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf  
-Cortex-R5F Based BLDC Motor Manual Calibration II - https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf  
+|AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
+|AM5728 Wi-Fi Lab|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf)|
+|Battery(16000mAh) TATTU Translation to Korean|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt)|
+|Battery Charger|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf)|
+|Cortex-R5F Can Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf)|
+|Configuring CAN TMS570 Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Configuring%20CAN%20TMS570.txt)|
+|Cortex-R5F I2C Howto|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Cortex_R5_I2C_Howto.pdf)|
+|Cortex-R5F I2C MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_MPU6050_Control.pdf)|
+|Cortex-R5F HET PWM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HET_PWM.pdf)|
+|I2C Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Comm.pdf)|
+|Cortex-R5F RTI GPIO OC Circuit Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RTI_GPIO_OC_Config.pdf)|
+|Pmod CAN Control with Zynq Zybo|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Pmod_CAN_Control_with_Zybo.pdf)|
+|SPI Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Comm.pdf)|
+|Cortex-R5F SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Loopback.pdf)|
+|Understanding Encoder|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf)|
+|Cortex-R5F Based BLDC Motor Manual Calibration I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf)|
+|Cortex-R5F Based BLDC Motor Manual Calibration II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf)|
 
 Mastering Kalman Filter - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf  
 
