@@ -8,7 +8,7 @@ Autonomous RC Car for Baby
 |캡션1|캡션2|캡션3|
 |-|-|-|
 |행1|셀|셀|
-|행2|셀|셀|
+|행2|셀|셀
 
 ```c
 #include <stdio.h>
