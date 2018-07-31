@@ -1,6 +1,10 @@
 # RC_Car
 Autonomous RC Car for Baby
 
+|제목|자료 링크|
+|-|-|
+|SMPS Power Electronics|[move to document](https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf)|
+
 |캡션1|캡션2|캡션3|
 |-|-|-|
 |행1|셀|셀|
@@ -115,7 +119,7 @@ Cortex-R5F Based ESP8266 Wi-Fi Connection - https://github.com/KOITT2/RC_Car/blo
 1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf  
 2nd Mission - https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf  
 
-- Hanbyul Jung:			
+- Hanbyul Jung:			hanbulkr@gmail.com
 
 ![hanbyul](./member_profile/hanbyul_profile_1.jpg)
 
