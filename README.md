@@ -24,9 +24,11 @@ int main(void)
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
 
-LC Resonance - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf  
-SMPS Power Electronics 1 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf  
-SMPS Power Electronics 5 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf  
+|Title|Link|
+|-|-|
+|LC Resonance|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf)|
+|SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
+|SMPS Power Electronics 5|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf)|
 
 1st Week Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf  
 2nd Week Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf  
