@@ -53,7 +53,7 @@
 #define AF_SEL_ACCEL_RANGE_8G 2 << 3
 #define AF_SEL_ACCEL_RANGE_16G 3 << 3
 
-int mpu6050_init(int bus_no, int addr)
+int mpu6050_init(int addr)
 {
 	int fd;
 
@@ -70,6 +70,11 @@ int mpu6050_init(int bus_no, int addr)
 	}
 
 	return fd;
+}
+
+inline void mpu6050_deinit(int fd)
+{
+	close(fd);
 }
 
 void mpu6050_write_reg(int fd, uint8_t reg, uint8_t val)
@@ -169,7 +174,7 @@ int main(void)
 	int whoami = 0, sense;
 	int fd;
 
-	if((fd = mpu6050_init(I2C_BUS, MPU6050_ADDR)) < 0)
+	if((fd = mpu6050_init(MPU6050_ADDR)) < 0)
 	{
 		printf("Can't Init MPU6050\n");
 		return -1;
@@ -194,6 +199,8 @@ int main(void)
 
 		usleep(200000);
 	}
+
+	mpu6050_deinit(fd);
 
 	return 0;
 }
