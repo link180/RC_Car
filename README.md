@@ -8,7 +8,16 @@ Autonomous RC Car for Baby
 |캡션1|캡션2|캡션3|
 |-|-|-|
 |행1|셀|셀|
-|행2|셀|셀
+|행2|셀|셀|
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  return 0;
+}
+```
 
 # Master
 - Sanghoon Lee:			gcccompil3r@gmail.com
