@@ -118,6 +118,8 @@ int main(void)
 
 ![siyun](./member_profile/siyun_profile_1.jpg)
 
+|Title|Link|
+|-|-|
 |FPGA Based Capture Custom IP Implementation|[pdf](https://github.com/KOITT2/RC_Car/blob/ffe65631d3f1e754f758d212328edacdaf750a5c/experiment/doc/ecap_fpga/make_ecap_custom_ip.pdf)
 |FPGA Based PWM + eCAP Device Driver|[pdf](https://github.com/KOITT2/RC_Car/blob/dd3de6f12cbe9f512ba9eb875713a31c4c438ec5/experiment/doc/fpga_pwm_ecap_device_driver/fpga_pwm_ecap_device_driver.pdf)|
 |FPGA Based PWM Device Driver|[pdf](https://github.com/KOITT2/RC_Car/blob/68a738c320e5b16012564616131503cb4bff16bb/experiment/doc/pwm_fpga/pwm_device_driver/PWM_device_driver.pdf)|
@@ -132,21 +134,23 @@ int main(void)
 
 ![hanbyul](./member_profile/hanbyul_profile_1.jpg)
 
-SMPS Power Electronics 4 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/4%EC%9E%A5%20(1).pdf  
-How to pick proper schottky diode Translation(Korean) - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/%EC%87%BC%ED%8A%B8%ED%82%A4%20%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EA%B8%B0%EC%A4%80.txt  
-
-Cortex-R5F Based ADC - https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf  
-Cortex-R5F Based SCI - https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf  
-1st Mission - https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/3e1d94fe3b8ef09d47222f27d15276d1fd9153da/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_3%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C(DC_Converter).pdf  
-
-Various Useful Supporting to team!
+|Title|Link|
+|-|-|
+|SMPS Power Electronics 4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/4%EC%9E%A5%20(1).pdf)|
+|How to pick proper schottky diode Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/%EC%87%BC%ED%8A%B8%ED%82%A4%20%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EA%B8%B0%EC%A4%80.txt)|
+|Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
+|Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/3e1d94fe3b8ef09d47222f27d15276d1fd9153da/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_3%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C(DC_Converter).pdf)|
+|Various Useful Supporting to team!|-|
 
 - Daesung Choi:			c3d4s19@naver.com
 
 ![daesung](./member_profile/daesung_profile_1.jpg)
 
-PID Block Diagram - https://github.com/KOITT2/RC_Car/blob/c5f8b870159f64f59a961838aff001293c3cb9c6/experiment/doc/PID%20Block%20Diagram.pdf  
+|Title|Link|
+|-|-|
+|PID Block Diagram|[pdf](https://github.com/KOITT2/RC_Car/blob/c5f8b870159f64f59a961838aff001293c3cb9c6/experiment/doc/PID%20Block%20Diagram.pdf)|
 
 - Wooseok Lee:			colre99@naver.com
 
@@ -156,10 +160,11 @@ PID Block Diagram - https://github.com/KOITT2/RC_Car/blob/c5f8b870159f64f59a9618
 
 ![hanna](./member_profile/hanna_profile_1.jpg)
 
-Cortex-R5F Based I2C Lidar Control - https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf  
-
-1st Mission - https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf  
+|Title|Link|
+|-|-|
+|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf)|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf)|
 
 - Hoseong Lee:			hslee00001@naver.com
 
@@ -173,7 +178,9 @@ Cortex-R5F Based I2C Lidar Control - https://github.com/KOITT2/RC_Car/blob/9971a
 
 ![jihee](./member_profile/jihee_profile_1.jpg)
 
-1st Mission(DMA) - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf  
+|Title|Link|
+|-|-|
+|1st Mission(DMA)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
 
 - Jiwan Yoon:			yoonjw7894@naver.com
 
