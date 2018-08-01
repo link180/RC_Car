@@ -83,48 +83,50 @@ int main(void)
 
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
 
-C Language Summary - https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf  
-MCU Core Function Summary - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf  
+|Title|Link|
+|-|-|
+|C Language Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
+|MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
 ![sunghwan](./member_profile/sunghwan_profile_1.jpg)
 
-Cortex-R5F etPWM Analysis I - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf  
-Cortex-R5F etPWM Analysis II - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf  
-Cortex-R5F CAN Analysis - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf  
+|Title|Link|
+|-|-|
+|Cortex-R5F etPWM Analysis I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf)|
+|Cortex-R5F etPWM Analysis II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf)|
+|Cortex-R5F CAN Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf)|
 
 - Hyunwoo Park:			phw820@naver.com
 
 ![hyunwoo](./member_profile/hyunwoo_profile_1.jpg)
 
-Introduction Buck Converter - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/BUCK%20CONVERTER%20.pdf  
-PSIM PID Control - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20PID%EC%A0%9C%EC%96%B4.pdf  
-PSIM Control I - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%201.pdf  
-PSIM Control II - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%202.pdf  
-SMPS Power Electronics 3 - https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS-chapter3.pdf  
-
-Cortex-R5F Based ESC Calibration - https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf  
-
-1st Mission - https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf  
-3rd Mission - https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf  
+|Title|Link|
+|-|-|
+|Introduction Buck Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/BUCK%20CONVERTER%20.pdf)|
+|PSIM PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20PID%EC%A0%9C%EC%96%B4.pdf)|
+|PSIM Control I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%201.pdf)|
+|PSIM Control II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%202.pdf)|
+|SMPS Power Electronics 3|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS-chapter3.pdf)|
+|Cortex-R5F Based ESC Calibration|[pdf](https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf)|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 
 - Siyun Kim:			glgltldbs@naver.com
 
 ![siyun](./member_profile/siyun_profile_1.jpg)
 
-FPGA Based Capture Custom IP Implementation - https://github.com/KOITT2/RC_Car/blob/ffe65631d3f1e754f758d212328edacdaf750a5c/experiment/doc/ecap_fpga/make_ecap_custom_ip.pdf  
-FPGA Based PWM + eCAP Device Driver - https://github.com/KOITT2/RC_Car/blob/dd3de6f12cbe9f512ba9eb875713a31c4c438ec5/experiment/doc/fpga_pwm_ecap_device_driver/fpga_pwm_ecap_device_driver.pdf  
-FPGA Based PWM Device Driver - https://github.com/KOITT2/RC_Car/blob/68a738c320e5b16012564616131503cb4bff16bb/experiment/doc/pwm_fpga/pwm_device_driver/PWM_device_driver.pdf  
-FPGA Based GPIO PWM Device Driver - https://github.com/KOITT2/RC_Car/blob/68a738c320e5b16012564616131503cb4bff16bb/experiment/doc/pwm_fpga/pwm_gpio_device_driver/use_gpio_driver_make_pwm.pdf  
-
-Cortex-R5F Based ESP8266 TCP Server Connection - https://github.com/KOITT2/RC_Car/blob/7fa370fb6248ab7f2028326d7877ce280d86308b/experiment/doc/esp8266/esp8266_connectWiFi_openTCPserver.pdf  
-Cortex-R5F Based eCAP Analysis - https://github.com/KOITT2/RC_Car/blob/b2e2af9e28dad696bca7e2c9568909634bcd2a05/experiment/doc/ecap/TMS570LC43x_eCAP_datasheet_and_eCAP_example.pdf  
-Cortex-R5F Based ESP8266 Wi-Fi Connection - https://github.com/KOITT2/RC_Car/blob/0a3cd1bb436c92cf9063173959813e6d0ee04bbc/experiment/doc/esp8266/ESP8266_Connect_WiFi.pdf  
-
-1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf  
+|FPGA Based Capture Custom IP Implementation|[pdf](https://github.com/KOITT2/RC_Car/blob/ffe65631d3f1e754f758d212328edacdaf750a5c/experiment/doc/ecap_fpga/make_ecap_custom_ip.pdf)
+|FPGA Based PWM + eCAP Device Driver|[pdf](https://github.com/KOITT2/RC_Car/blob/dd3de6f12cbe9f512ba9eb875713a31c4c438ec5/experiment/doc/fpga_pwm_ecap_device_driver/fpga_pwm_ecap_device_driver.pdf)|
+|FPGA Based PWM Device Driver|[pdf](https://github.com/KOITT2/RC_Car/blob/68a738c320e5b16012564616131503cb4bff16bb/experiment/doc/pwm_fpga/pwm_device_driver/PWM_device_driver.pdf)|
+|FPGA Based GPIO PWM Device Driver|[pdf](https://github.com/KOITT2/RC_Car/blob/68a738c320e5b16012564616131503cb4bff16bb/experiment/doc/pwm_fpga/pwm_gpio_device_driver/use_gpio_driver_make_pwm.pdf)|
+|Cortex-R5F Based ESP8266 TCP Server Connection|[pdf](https://github.com/KOITT2/RC_Car/blob/7fa370fb6248ab7f2028326d7877ce280d86308b/experiment/doc/esp8266/esp8266_connectWiFi_openTCPserver.pdf)|
+|Cortex-R5F Based eCAP Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/b2e2af9e28dad696bca7e2c9568909634bcd2a05/experiment/doc/ecap/TMS570LC43x_eCAP_datasheet_and_eCAP_example.pdf)|
+|Cortex-R5F Based ESP8266 Wi-Fi Connection|[pdf](https://github.com/KOITT2/RC_Car/blob/0a3cd1bb436c92cf9063173959813e6d0ee04bbc/experiment/doc/esp8266/ESP8266_Connect_WiFi.pdf)|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
