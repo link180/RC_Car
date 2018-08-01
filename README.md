@@ -113,6 +113,7 @@ int main(void)
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%204%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 
 - Siyun Kim:			glgltldbs@naver.com
 
@@ -190,25 +191,31 @@ int main(void)
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
 
-Cortex-R5F Based eQEP TRM Analysis - https://github.com/KOITT2/RC_Car/blob/b474b0e4c22217db033a3d1bc65639d203444aa2/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/eQEP_0725.pdf  
-Cortex-R5F Based SPI Analysis & Loopback Test - https://github.com/KOITT2/RC_Car/blob/9219044272f63e2aea244204703a762cc924a63b/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%ED%86%B5%EC%8B%A0%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20Loopback%20%EA%B5%AC%ED%98%84.pdf  
-
-Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade - https://github.com/KOITT2/RC_Car/blob/9f90c025ba363fa29cf6b206d5bd31125a4a26d3/test/test/1%EC%A3%BC%EC%B0%A8/wifi%20%EB%AA%A8%EB%93%88%20%ED%8E%8C%EC%9B%A8%EC%96%B4%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.pdf  
+|Title|Link|
+|-|-|
+|Cortex-R5F Based eQEP TRM Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/b474b0e4c22217db033a3d1bc65639d203444aa2/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/eQEP_0725.pdf)|
+|Cortex-R5F Based SPI Analysis & Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/9219044272f63e2aea244204703a762cc924a63b/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%ED%86%B5%EC%8B%A0%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20Loopback%20%EA%B5%AC%ED%98%84.pdf)|
+|Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade|[pdf](https://github.com/KOITT2/RC_Car/blob/9f90c025ba363fa29cf6b206d5bd31125a4a26d3/test/test/1%EC%A3%BC%EC%B0%A8/wifi%20%EB%AA%A8%EB%93%88%20%ED%8E%8C%EC%9B%A8%EC%96%B4%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
 ![soojeong](./member_profile/soojeong_profile_1.jpg)
 
-1st Mission - https://github.com/KOITT2/RC_Car/blob/c43a61869a53e8f6a671bfb69c1f917942eff059/cur_present/180711_1.pdf  
-2nd Mission(I2C) - https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf  
-3rd Mission(I2C) - https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf  
+|Title|Link|
+|-|-|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/c43a61869a53e8f6a671bfb69c1f917942eff059/cur_present/180711_1.pdf)|
+|2nd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf)|
+|3rd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf)|
+|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180801_4%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C%26lidar.pdf)|
 
 - Yukyoung Chung:		ucong@naver.com
 
 ![yukyoung](./member_profile/yukyoung_profile_1.jpg)
 
-1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180711_1%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EB%B8%94%EC%BD%A9%EC%B9%B4.pdf  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf  
+|Title|Link|
+|-|-|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180711_1%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EB%B8%94%EC%BD%A9%EC%B9%B4.pdf)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf)|
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
@@ -222,4 +229,6 @@ Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade - https://github.com/KOITT2/
 
 ![sungyong](./member_profile/sungyong_profile_1.jpg)
 
-1st Mission - https://github.com/KOITT2/RC_Car/blob/ccdc85d21cb431de748dff5812b0fff4dc35d586/_1%EC%A3%BC%EC%B0%A8%200711_%ED%95%98%EC%84%B1%EC%9A%A9.pdf  
+|Title|Link|
+|-|-|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/ccdc85d21cb431de748dff5812b0fff4dc35d586/_1%EC%A3%BC%EC%B0%A8%200711_%ED%95%98%EC%84%B1%EC%9A%A9.pdf)|
