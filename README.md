@@ -66,18 +66,18 @@ int main(void)
 
 ![hyungju](./member_profile/hyungju_profile_1.jpg)
 
-SMPS Power Electronics - https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf  
-
-1st Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0718.pdf  
-2nd Mission - https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf  
-
-FreeRTOS Guide - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf  
-PID Controller - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf  
-
-Zybo eCAP Loopback Test - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf  
-Step Motor Test - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf  
-DSP UART Test - https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf  
-DSP CAN Test - https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf  
+|Title|Link|
+|-|-|
+|SMPS Power Electronics|[pdf](https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf)|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0718.pdf)|
+|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf)|
+|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0801.pdf)|
+|FreeRTOS Guide|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf)|
+|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
+|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
+|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
+|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
+|DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
