@@ -97,6 +97,9 @@ int main(void)
 |Cortex-R5F etPWM Analysis I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf)|
 |Cortex-R5F etPWM Analysis II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf)|
 |Cortex-R5F CAN Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf)|
+|Cortex-R5F CAN Code|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN%20code_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|Cortex-R5F CAN Register][pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
 
 - Hyunwoo Park:			phw820@naver.com
 
@@ -166,6 +169,7 @@ int main(void)
 |Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf)|
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf)|
 |2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf)|
+|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0801.pdf)|
 
 - Hoseong Lee:			hslee00001@naver.com
 
@@ -182,6 +186,8 @@ int main(void)
 |Title|Link|
 |-|-|
 |1st Mission(DMA)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
+|Zynq Zybo FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
+|Zynq Zybo Petalinux v2015.4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/petalinux(v2015-4).pdf)|
 
 - Jiwan Yoon:			yoonjw7894@naver.com
 
@@ -196,6 +202,7 @@ int main(void)
 |Cortex-R5F Based eQEP TRM Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/b474b0e4c22217db033a3d1bc65639d203444aa2/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/eQEP_0725.pdf)|
 |Cortex-R5F Based SPI Analysis & Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/9219044272f63e2aea244204703a762cc924a63b/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%ED%86%B5%EC%8B%A0%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20Loopback%20%EA%B5%AC%ED%98%84.pdf)|
 |Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade|[pdf](https://github.com/KOITT2/RC_Car/blob/9f90c025ba363fa29cf6b206d5bd31125a4a26d3/test/test/1%EC%A3%BC%EC%B0%A8/wifi%20%EB%AA%A8%EB%93%88%20%ED%8E%8C%EC%9B%A8%EC%96%B4%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.pdf)|
+|SPI Communication(need to modify)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
@@ -216,6 +223,7 @@ int main(void)
 |-|-|
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180711_1%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EB%B8%94%EC%BD%A9%EC%B9%B4.pdf)|
 |2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf)|
+|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/4%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD_Calibration%2C%20Putty%EC%9D%B4%EC%9A%A9%ED%95%9C%20duty%EC%A0%9C%EC%96%B4(%EB%AA%A8%ED%84%B0%EC%A0%9C%EC%96%B4).pdf)|
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
@@ -224,6 +232,10 @@ int main(void)
 - Yoosung Lee:			dbtjd1102@naver.com
 
 ![yoosung](./member_profile/yoosung_profile_1.jpg)
+
+|Title|Link|
+|-|-|
+|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%9D%B4%EC%9C%A0%EC%84%B1/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%202%EC%A3%BC%EC%B0%A8(1).pdf)|
 
 - Sungyong Ha:			accept0108@naver.com
 
