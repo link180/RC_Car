@@ -156,6 +156,9 @@ int main(void)
 |Title|Link|
 |-|-|
 |PID Block Diagram|[pdf](https://github.com/KOITT2/RC_Car/blob/c5f8b870159f64f59a961838aff001293c3cb9c6/experiment/doc/PID%20Block%20Diagram.pdf)|
+|Bode Plot|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BodePlot.pdf)|
+|Root Locus|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RootLocus.pdf)|
+|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/pid.pdf)|
 
 - Wooseok Lee:			colre99@naver.com
 
