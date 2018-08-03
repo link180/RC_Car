@@ -1,7 +1,14 @@
 #include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
+#include <sys/types.h>
 #include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <signal.h>
+#include <errno.h>
 #include <fcntl.h>
 #include <unistd.h>
 
