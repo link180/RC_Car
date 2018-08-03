@@ -98,7 +98,7 @@ int main(void)
 |Cortex-R5F etPWM Analysis II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf)|
 |Cortex-R5F CAN Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf)|
 |Cortex-R5F CAN Code|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN%20code_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
-|Cortex-R5F CAN Register][pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|Cortex-R5F CAN Register|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
 |PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
 
 - Hyunwoo Park:			phw820@naver.com
@@ -142,6 +142,7 @@ int main(void)
 |-|-|
 |SMPS Power Electronics 4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/4%EC%9E%A5%20(1).pdf)|
 |How to pick proper schottky diode Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/%EC%87%BC%ED%8A%B8%ED%82%A4%20%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EA%B8%B0%EC%A4%80.txt)|
+|Autonomous RC Car Drawing|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%8F%84%EB%A9%B4.pdf)|
 |Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
 |Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx)|
