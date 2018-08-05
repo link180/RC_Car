@@ -60,6 +60,7 @@ int main(void)
 |Zynq Zybo Device Driver User Code|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/zynq)|
 |MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
 |Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
+|Android NDK Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Android_NDK_Env_Set_update_Linux.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
