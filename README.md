@@ -78,6 +78,7 @@ int main(void)
 |Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
 |DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
 |DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
+|Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
@@ -112,6 +113,7 @@ int main(void)
 |PSIM Control I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%201.pdf)|
 |PSIM Control II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%202.pdf)|
 |SMPS Power Electronics 3|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS-chapter3.pdf)|
+|Buck Converter 12V 1A|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/BUCK_CONVERTER_12V_1A_design.pdf)|
 |Cortex-R5F Based ESC Calibration|[pdf](https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf)|
 |Cortex-R5F Based MPU9250 Control|[zip](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/__MPU9250.zip)|
 |Cortex-R5F Based MPU9250 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_MPU9250.pdf)|
