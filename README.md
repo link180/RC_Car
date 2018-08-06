@@ -38,7 +38,7 @@ int main(void)
 |Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
 |AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
 |AM5728 Wi-Fi Lab|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf)|
-|AM5728 Custom Kernel Compilation(Old Version)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Kernel_Compile.pdf|
+|AM5728 Custom Kernel Compilation(Old Version)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Kernel_Compile.pdf)|
 |Battery(16000mAh) TATTU Translation to Korean|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt)|
 |Battery Charger|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf)|
 |Cortex-R5F Can Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf)|
