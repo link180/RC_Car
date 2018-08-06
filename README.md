@@ -33,6 +33,7 @@ int main(void)
 |2nd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf)|
 |3rd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_3.pdf)|
 |4th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_4.pdf)|
+|5th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_5.pdf)|
 |Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
 |Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
 |AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
@@ -77,9 +78,11 @@ int main(void)
 |PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
 |Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
 |Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
+|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
 |DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
 |DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
 |Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
+|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
@@ -147,6 +150,7 @@ int main(void)
 |-|-|
 |SMPS Power Electronics 4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/4%EC%9E%A5%20(1).pdf)|
 |How to pick proper schottky diode Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/%EC%87%BC%ED%8A%B8%ED%82%A4%20%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EA%B8%B0%EC%A4%80.txt)|
+|12V 5A Finished Product|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/12v_5a.txt)|
 |Autonomous RC Car Drawing|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%8F%84%EB%A9%B4.pdf)|
 |Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
 |Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
