@@ -95,6 +95,7 @@ int main(void)
 |-|-|
 |C Language Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 |MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
+|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pptx)|
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
@@ -231,6 +232,7 @@ int main(void)
 
 |Title|Link|
 |-|-|
+|I2C Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C%20%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC.pdf)|
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/c43a61869a53e8f6a671bfb69c1f917942eff059/cur_present/180711_1.pdf)|
 |2nd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf)|
 |3rd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf)|
