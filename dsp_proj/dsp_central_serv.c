@@ -92,10 +92,54 @@ int main(int argc, char **argv)
 
             while((len = read(clnt_sock, (char *)&buf, BUF_SIZE)) != 0)
             {
+#if 0
 				if(atoi(&buf[0]) == 1)
 					printf("Turn Left\n");
 				else
 					printf("input = %s\n", buf);
+#endif
+				switch(atoi(&buf[0]))
+				{
+					case 1:
+						printf("(1) Turn Left\n");
+						break;
+					case 2:
+						printf("(2) Turn Right\n");
+						break;
+					case 3:
+						printf("(3) Go Straight\n");
+						break;
+					case 4:
+						printf("(4) Go backward\n");
+						break;
+					case 5:
+						printf("(5) Stop\n");
+						break;
+					case 6:
+						printf("(6) Collision Warn\n");
+						break;
+					case 7:
+						printf("(7) Left Winker\n");
+						break;
+					case 8:
+						printf("(8) Right Winker\n");
+						break;
+					case 9:
+						printf("(9) Head Light\n");
+						break;
+					case 10:
+						printf("(10) DSP Image Meta Data\n");
+						break;
+					case 11:
+						printf("(11) FPGA Lidar Meta Data\n");
+						break;
+					case 12:
+						printf("(12) Specified Velocity or PWM Duty\n");
+						break;
+					case 13:
+						printf("(13) Specified Angle or PWM Duty(Servo)\n");
+						break;
+				}
 
 				memset(buf, 0x0, sizeof(buf));
 
