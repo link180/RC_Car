@@ -99,7 +99,7 @@ int main(int argc, char **argv)
 
 				memset(buf, 0x0, sizeof(buf));
 
-                write(clnt_sock, (char *)&tx_buf, len);
+                write(clnt_sock, (char *)&tx_buf, test_len);
             }
 
             close(clnt_sock);
