@@ -6,5 +6,6 @@ sleep 1
 
 #/usr/share/wl18xx/ap_start.sh
 #./ap_start.sh
-perl test.pl
-perl ap_start.pl
+#perl test.pl
+#perl ap_start.pl
+/usr/share/wl18xx/ap_start.sh
