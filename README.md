@@ -40,6 +40,7 @@ int main(void)
 |AM5728 Wi-Fi Lab|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf)|
 |AM5728 DSP Central Server Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_Server.pdf)|
 |AM5728 Custom Kernel Compilation(Old Version)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Kernel_Compile.pdf)|
+|AM5728 Wi-Fi Config Automation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_WiFi_Automatic.pdf)|
 |Battery(16000mAh) TATTU Translation to Korean|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt)|
 |Battery Charger|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf)|
 |Cortex-R5F Can Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf)|
