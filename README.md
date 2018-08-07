@@ -121,6 +121,7 @@ int main(void)
 |PSIM Control II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/PSIM%20STUDY%202.pdf)|
 |SMPS Power Electronics 3|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS-chapter3.pdf)|
 |Buck Converter 12V 1A|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/BUCK_CONVERTER_12V_1A_design.pdf)|
+|Buck Design Tool|[pdf](https://github.com/KOITT2/RC_Car/blob/71b9861bdc12ff012a3479a00452fe933cc5474b/circuit/dcdc/buck%20design%20tool.xls)|
 |Cortex-R5F Based ESC Calibration|[pdf](https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf)|
 |Cortex-R5F Based MPU9250 Control|[zip](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/__MPU9250.zip)|
 |Cortex-R5F Based MPU9250 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_MPU9250.pdf)|
