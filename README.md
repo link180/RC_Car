@@ -159,8 +159,11 @@ int main(void)
 |Autonomous RC Car Drawing|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%8F%84%EB%A9%B4.pdf)|
 |Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
 |Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
+|Cortex-R5F Based MPU6050 with Servo Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_motor_Control.pdf)|
+|Java Server & CS Program|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/doc/test_server)|
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx)|
 |2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/3e1d94fe3b8ef09d47222f27d15276d1fd9153da/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_3%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C(DC_Converter).pdf)|
+|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_5%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 |Various Useful Supporting to team!|-|
 
 - Daesung Choi:			c3d4s19@naver.com
