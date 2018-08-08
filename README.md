@@ -72,44 +72,44 @@ int main(void)
 
 ![hyungju](./member_profile/hyungju_profile_1.jpg)
 
-|Title|Link|
-|-|-|
-|SMPS Power Electronics|[pdf](https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf)|
-|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0718.pdf)|
-|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf)|
-|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0801.pdf)|
-|FreeRTOS Guide|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf)|
-|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
-|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
-|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
-|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
-|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
-|DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
-|Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
-|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
+|Subject|Title|Link|
+|-|-|-|
+|Power Electronics|SMPS Power Electronics|[pdf](https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf)|
+|Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0718.pdf)|
+|Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf)|
+|Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0801.pdf)|
+|FreeRTOS|FreeRTOS Guide|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf)|
+|Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
+|FPGA|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
+|Control Theory|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
+|FPGA|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
+|DSP|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
+|DSP|DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
+|Android|Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
+|Android|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
 
-|Title|Link|
-|-|-|
-|C Language Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
-|MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
-|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pptx)|
+|Subject|Title|Link|
+|-|-|-|
+|Review|C Language Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
+|MCU|MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
+|Physics|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pptx)|
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
 ![sunghwan](./member_profile/sunghwan_profile_1.jpg)
 
-|Title|Link|
-|-|-|
-|Cortex-R5F etPWM Analysis I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf)|
-|Cortex-R5F etPWM Analysis II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf)|
-|Cortex-R5F CAN Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf)|
-|Cortex-R5F CAN Code|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN%20code_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
-|Cortex-R5F CAN Register|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
-|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
+|Subject|Title|Link|
+|-|-|-|
+|MCU|Cortex-R5F etPWM Analysis I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_code.pdf)|
+|MCU|Cortex-R5F etPWM Analysis II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/etPWM_register.pdf)|
+|MCU|Cortex-R5F CAN Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN%20code.pdf)|
+|MCU|Cortex-R5F CAN Code|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN%20code_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|MCU|Cortex-R5F CAN Register|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|Control Theory|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
 
 - Hyunwoo Park:			phw820@naver.com
 
