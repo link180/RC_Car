@@ -248,6 +248,7 @@ int main(void)
 |1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180711_1%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EB%B8%94%EC%BD%A9%EC%B9%B4.pdf)|
 |2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf)|
 |3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/4%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD_Calibration%2C%20Putty%EC%9D%B4%EC%9A%A9%ED%95%9C%20duty%EC%A0%9C%EC%96%B4(%EB%AA%A8%ED%84%B0%EC%A0%9C%EC%96%B4).pdf)|
+|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180808_5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EB%94%94%EC%BD%94%EB%8D%94_%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8.pdf)|
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
