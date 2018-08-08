@@ -27,7 +27,7 @@ int main(void)
 |Subject|Title|Link|
 |-|-|-|
 |Power Electronics|LC Resonance|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf)|
-|Power Electronics|Power Electronics|SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
+|Power Electronics|SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
 |Power Electronics|SMPS Power Electronics 5|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf)|
 |Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf)|
 |Week Mission|2nd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf)|
