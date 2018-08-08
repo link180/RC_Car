@@ -24,48 +24,48 @@ int main(void)
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
 
-|Title|Link|
-|-|-|
-|LC Resonance|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf)|
-|SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
-|SMPS Power Electronics 5|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf)|
-|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf)|
-|2nd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf)|
-|3rd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_3.pdf)|
-|4th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_4.pdf)|
-|5th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_5.pdf)|
-|Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
-|Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
-|AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
-|AM5728 Wi-Fi Lab|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf)|
-|AM5728 DSP Central Server Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_Server.pdf)|
-|AM5728 Custom Kernel Compilation(Old Version)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Kernel_Compile.pdf)|
-|AM5728 Wi-Fi Config Automation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_WiFi_Automatic.pdf)|
-|Battery(16000mAh) TATTU Translation to Korean|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt)|
-|Battery Charger|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf)|
-|Cortex-R5F Can Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf)|
-|Configuring CAN TMS570 Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Configuring%20CAN%20TMS570.txt)|
-|Cortex-R5F I2C Howto|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Cortex_R5_I2C_Howto.pdf)|
-|Cortex-R5F I2C MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_MPU6050_Control.pdf)|
-|Cortex-R5F HET PWM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HET_PWM.pdf)|
-|I2C Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Comm.pdf)|
-|Cortex-R5F RTI GPIO OC Circuit Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RTI_GPIO_OC_Config.pdf)|
-|Pmod CAN Control with Zynq Zybo|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Pmod_CAN_Control_with_Zybo.pdf)|
-|SPI Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Comm.pdf)|
-|Cortex-R5F SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Loopback.pdf)|
-|Understanding Encoder|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf)|
-|Cortex-R5F Based BLDC Motor Manual Calibration I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf)|
-|Cortex-R5F Based BLDC Motor Manual Calibration II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf)|
-|Mastering Kalman Filter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf)|
-|FPGA Zynq Zybo Based MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Zynq_Zybo_Based_MPU6050_Control.pdf)|
-|All of statistics Library|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/statistics)|
-|Character Set Conversion|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/char_set)|
-|Control Theory Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/control_theory)|
-|AM5728 DSP Server Code|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj)|
-|Zynq Zybo Device Driver User Code|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/zynq)|
-|MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
-|Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
-|Android NDK Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Android_NDK_Env_Set_update_Linux.pdf)|
+|Subject|Title|Link|
+|-|-|-|
+|Power Electronics|LC Resonance|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/LC%20Resonance.pdf)|
+|Power Electronics|Power Electronics|SMPS Power Electronics 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_1.pdf)|
+|Power Electronics|SMPS Power Electronics 5|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/SMPS_PowerElectronics_5.pdf)|
+|Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_1.pdf)|
+|Week Mission|2nd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_2.pdf)|
+|Week Mission|3rd Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_3.pdf)|
+|Week Mission|4th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_4.pdf)|
+|Week Mission|5th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_5.pdf)|
+|Design|Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
+|Design|Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
+|DSP|AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
+|DSP|AM5728 Wi-Fi Lab|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_WiFi_Lab.pdf)|
+|DSP|AM5728 DSP Central Server Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_Server.pdf)|
+|DSP|AM5728 Custom Kernel Compilation(Old Version)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Kernel_Compile.pdf)|
+|DSP|AM5728 Wi-Fi Config Automation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_DSP_WiFi_Automatic.pdf)|
+|Battery|Battery(16000mAh) TATTU Translation to Korean|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery(16000mAh)_TATTU.txt)|
+|Battery|Battery Charger|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Battery_Charger.pdf)|
+|MCU|Cortex-R5F Can Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/CAN_Test.pdf)|
+|MCU|Configuring CAN TMS570 Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Configuring%20CAN%20TMS570.txt)|
+|MCU|Cortex-R5F I2C Howto|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Cortex_R5_I2C_Howto.pdf)|
+|MCU|Cortex-R5F I2C MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_MPU6050_Control.pdf)|
+|MCU|Cortex-R5F HET PWM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HET_PWM.pdf)|
+|MCU|I2C Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Comm.pdf)|
+|MCU|Cortex-R5F RTI GPIO OC Circuit Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RTI_GPIO_OC_Config.pdf)|
+|FPGA|Pmod CAN Control with Zynq Zybo|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Pmod_CAN_Control_with_Zybo.pdf)|
+|Design|SPI Communication Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Comm.pdf)|
+|MCU|Cortex-R5F SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/SPI_Loopback.pdf)|
+|Design|Understanding Encoder|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Understanding_Encoder.pdf)|
+|MCU|Cortex-R5F Based BLDC Motor Manual Calibration I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/ESCCalibration.pdf)|
+|MCU|Cortex-R5F Based BLDC Motor Manual Calibration II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/motor_control/MCU%EC%97%90%EC%84%9C%20%EB%AA%A8%ED%84%B0%20Calibration%20%EC%84%A4%EC%A0%95.pdf)|
+|Design|Mastering Kalman Filter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Upgrade_Kalman.pdf)|
+|FPGA|FPGA Zynq Zybo Based MPU6050 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Zynq_Zybo_Based_MPU6050_Control.pdf)|
+|Statistics|All of statistics Library|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/statistics)|
+|Character Set|Character Set Conversion|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/char_set)|
+|Control Theory|Control Theory Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/control_theory)|
+|DSP|AM5728 DSP Server Code|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj)|
+|FPGA|Zynq Zybo Device Driver User Code|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/zynq)|
+|Quadcopter|MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
+|Quadcopter|Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
+|Android|Android NDK Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Android_NDK_Env_Set_update_Linux.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
