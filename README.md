@@ -179,6 +179,10 @@ int main(void)
 |Control Theory|Root Locus|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RootLocus.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/pid.pdf)|
 
+- Taeyoung Eun:     zero_bird@naver.com
+
+![taeyoung](./member_profile/taeyoung_profile_1.jpg)
+
 - Wooseok Lee:			colre99@naver.com
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
