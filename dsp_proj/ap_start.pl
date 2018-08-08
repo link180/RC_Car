@@ -1,3 +1,8 @@
 #!/usr/bin/perl
 
-system '/usr/share/wl18xx/ap_start.sh'
+use Cwd;
+
+print getcwd, "\n";
+chdir "/usr/share/wl18xx";
+print getcwd, "\n";
+system './ap_start.sh';
