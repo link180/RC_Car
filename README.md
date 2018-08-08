@@ -202,6 +202,14 @@ int main(void)
 
 ![hoseong](./member_profile/hoseong_profile_2.jpg)
 
+|Subject|Title|Link|
+|-|-|-|
+|FPGA|ModelSim Usage I|[pdf]()|
+|FPGA|ModelSim Installation on Linux|[pdf]()|
+|FPGA|Verilog Basic Grammar|[pdf]()|
+|FPGA|Can Communication between Zybo Boards|[pdf]()|
+|FPGA|Can Communication Vivado SDK Analysis|[pdf]()|
+
 - Hyungjun Yu:			love592946@naver.com
 
 ![hyungjun](./member_profile/hyungjun_profile_1.jpg)
