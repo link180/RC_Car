@@ -97,7 +97,7 @@ int main(void)
 |-|-|-|
 |Review|C Language Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/8b284f4fa02c83ce261112cfb8af9141ef25c94a/experiment/doc/C_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 |MCU|MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
-|Physics|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pptx)|
+|Physics|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 
 - Sunghwan Jang:		redmk1025@gmail.com
 
