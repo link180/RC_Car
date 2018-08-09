@@ -36,8 +36,10 @@ int main(int argc, char **argv)
 {
 	char *dev = "/dev/ttyUSB0";
 
-	int fd, cnt = 0;
+	int i, fd, cnt = 0;
 	char can_buf[BUF_SIZE] = {0};
+	char tx_buf[BUF_SIZE] = {0x2, 0x0, 0x8, 0x40, 0x1, 0x0, 0x0, 0x0,
+				 0x1, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0};
 	struct termios newtio;
 	struct pollfd poll_events;
 	int poll_state;
@@ -59,7 +61,8 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-	fd = open(dev, O_RDWR | O_NOCTTY | O_NONBLOCK);
+	//fd = open(dev, O_RDWR | O_NOCTTY | O_NONBLOCK);
+	fd = open(dev, O_RDWR | O_NOCTTY);
 	if(fd < 0)
 	{
 		printf("Open Error\n");
@@ -71,7 +74,7 @@ int main(int argc, char **argv)
 	newtio.c_oflag = 0;
 	newtio.c_lflag = 0;
 	newtio.c_cc[VTIME] = 0;
-	newtio.c_CC[VMIN] = 1;
+	newtio.c_cc[VMIN] = 1;
 
 	tcflush(fd, TCIFLUSH);
 	tcsetattr(fd, TCSANOW, &newtio);
@@ -124,6 +127,9 @@ int main(int argc, char **argv)
         {
             close(serv_sock);
 
+		read(fd, can_buf, 18);
+		//printf("can_buf = %s\n", can_buf);
+
             while((len = read(clnt_sock, (char *)&buf, BUF_SIZE)) != 0)
             {
 #if 0
@@ -135,55 +141,44 @@ int main(int argc, char **argv)
 				switch(atoi(&buf[0]))
 				{
 					case 1:
-						write(fd, buf[0], 1);
+						//write(fd, buf[0], 1);
+						write(fd, tx_buf, 18);
 						printf("(1) Turn Left\n");
 						break;
 					case 2:
-						write(fd, buf[0], 1);
 						printf("(2) Turn Right\n");
 						break;
 					case 3:
-						write(fd, buf[0], 1);
 						printf("(3) Go Straight\n");
 						break;
 					case 4:
-						write(fd, buf[0], 1);
 						printf("(4) Go backward\n");
 						break;
 					case 5:
-						write(fd, buf[0], 1);
 						printf("(5) Stop\n");
 						break;
 					case 6:
-						write(fd, buf[0], 1);
 						printf("(6) Collision Warn\n");
 						break;
 					case 7:
-						write(fd, buf[0], 1);
 						printf("(7) Left Winker\n");
 						break;
 					case 8:
-						write(fd, buf[0], 1);
 						printf("(8) Right Winker\n");
 						break;
 					case 9:
-						write(fd, buf[0], 1);
 						printf("(9) Head Light\n");
 						break;
 					case 10:
-						write(fd, buf[0], 1);
 						printf("(10) DSP Image Meta Data\n");
 						break;
 					case 11:
-						write(fd, buf[0], 1);
 						printf("(11) FPGA Lidar Meta Data\n");
 						break;
 					case 12:
-						write(fd, buf[0], 1);
 						printf("(12) Specified Velocity or PWM Duty\n");
 						break;
 					case 13:
-						write(fd, buf[0], 1);
 						printf("(13) Specified Angle or PWM Duty(Servo)\n");
 						break;
 				}
