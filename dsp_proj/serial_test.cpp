@@ -10,9 +10,9 @@ void serial(char* dev);
 int main( void)
 {
     char* dev0 ="/dev/ttyUSB0";
-    char* dev1 ="/dev/ttyUSB1";
+//    char* dev1 ="/dev/ttyUSB1";
     pid_t pid;
-
+/*
     pid = fork();
     if(pid > 0)
     {
@@ -22,7 +22,8 @@ int main( void)
     {
         serial(dev1);
     }
-
+*/
+    serial(dev0);
    // serial(dev0);
     return 0;
 }
@@ -32,15 +33,17 @@ void serial(char* dev)
        int    ndx;
        int    cnt;
        char   buf[1024] = {0,};
+       char   tx_buf[1024] = {0x2, 0x0, 0x8, 0x40, 0x0, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x49, 0x3};
+       int tx_cnt;
        struct termios    newtio;
        struct pollfd     poll_events;      // 체크할 event 정보를 갖는 struct
        int    poll_state;
-
+       int i;
        // 시리얼 포트를 open
        fd = open( dev, O_RDWR | O_NOCTTY | O_NONBLOCK );        // 디바이스를 open 한다.
        if ( 0 > fd)
        {
-          printf("open error\n");
+          printf("%s open error\n", dev);
           exit(-1);
        }
 
@@ -66,9 +69,12 @@ void serial(char* dev)
 
 
        // 자료 송수신
-
-       while ( 1)
+       printf("start parsing!");
+       for(i=0;i<10;i++)
        {
+
+          //tx_cnt = write(fd, tx_buf, 18);
+          //printf("tx_cnt = %d\n",tx_cnt);
           poll_state = poll(                               // poll()을 호출하여 event 발생 여부 확인
                              (struct pollfd*)&poll_events, // event 등록 변수
                                                        1,  // 체크할 pollfd 개수
@@ -80,13 +86,16 @@ void serial(char* dev)
              if ( poll_events.revents & POLLIN)            // event 가 자료 수신?
              {
                 cnt = read( fd, buf, 1024);
-                buf[cnt-1] = '\0';
-                write( fd, buf, cnt);
+                buf[cnt-1] = 0x3;
                 usleep(1000);
+
+                write( fd, buf, cnt);
+
                 printf( "data received - %d (%s)\n0x ", cnt, dev);
                 for(int i = 0;i < cnt; i++)
                     printf("%x ",buf[i]);
                 printf("\n");
+
              }
              if ( poll_events.revents & POLLERR)      // event 가 에러?
              {
@@ -95,6 +104,28 @@ void serial(char* dev)
              }
           }
        }
+
+       buf[8] = 1;
+       buf[9] = 0;
+       buf[10] = 0;
+       buf[11] = 0;
+       //send data
+       while(1)
+       {
+           buf[9] += 1;
+	   buf[16] += 1;
+           if(buf[9] == 10)
+	   {
+               buf[9] = 0;
+	       buf[16] = 0x49;
+	   }
+           usleep(1000000);
+
+           write( fd, buf, cnt);
+           printf("buf = %s\n",buf);
+
+       }
+
        close( fd);
 
 }

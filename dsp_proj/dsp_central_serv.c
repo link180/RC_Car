@@ -98,6 +98,8 @@ int main(int argc, char **argv)
 				else
 					printf("input = %s\n", buf);
 #endif
+				printf("buf = %s\n", buf);
+
 				switch(atoi(&buf[0]))
 				{
 					case 1:
