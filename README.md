@@ -82,6 +82,7 @@ int main(void)
 |FreeRTOS|FreeRTOS Guide|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
 |FPGA|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
+|MCU|Integrated Vehicle Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_MCU.pdf)|
 |Control Theory|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
 |FPGA|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
 |DSP|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
