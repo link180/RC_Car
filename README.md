@@ -233,6 +233,8 @@ int main(void)
 
 ![jiwan](./member_profile/jiwan_profile_1.jpg)
 
+|FreeRTOS|RTOS Example Analaysis & Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9C%A4%EC%A7%80%EC%99%84/rtos.pdf)|
+
 - Sangjae Ahn:			sangjae2015@naver.com
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
