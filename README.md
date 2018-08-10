@@ -66,6 +66,7 @@ int main(void)
 |Quadcopter|MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
 |Quadcopter|Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
 |Android|Android NDK Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Android_NDK_Env_Set_update_Linux.pdf)|
+|CCS|How to Install CCS on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_CCS_on_Windows.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
