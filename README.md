@@ -72,6 +72,7 @@ int main(void)
 |Design|TI AM5728 OpenCL Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/OpenCL_with_TI_AM5728.pdf)|
 |Git|How to Install Git on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_Git_on_Windows.pdf)|
 |Git and MCU|How to commit Project on GitHub with HET Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Commit_All_Proj_on_Github.pdf)|
+|DSP|How to Integrated Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSP_Integrated_Test_I.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
