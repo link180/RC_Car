@@ -32,14 +32,75 @@ void read_cproc(int sig)
     printf("Removed proc id: %d\n", pid);
 }
 
+void print_can_arr(char *buf, int num)
+{
+	int i;
+
+	printf("can buf = ");
+
+	for(i = 0; i < num; i++)
+		printf("%3x", buf[i]);
+
+	printf("\n");
+}
+
+void can_calc_crc(char *buf, int num)
+{
+	int i, sum = 0;
+
+	for(i = 2; i < num - 2; i++)
+		sum += buf[i];
+
+	buf[16] = sum;
+}
+
+void set_tx_buf(char *buf, char *tx_buf, int prot_num)
+{
+	int i;
+	char temp[16] = {0};
+	//printf("buf = %s\n", buf);
+	//printf("last = %x\n", buf[4]);
+
+	//for(i = 0; buf[i]; i++)
+	//	printf("%d\n", buf[i]);
+
+	memmove(temp, &buf[3], 1);
+
+	tx_buf[9] = 1;
+
+	if(atoi(temp))
+	{
+		tx_buf[8] = prot_num;
+		tx_buf[10] = atoi(temp);
+	}
+
+	can_calc_crc(tx_buf, 18);
+	print_can_arr(tx_buf, 18);
+}
+
+void set_tx_winker_buf(char *buf, char *tx_buf, int prot_num)
+{
+	int i;
+	char temp[16] = {0};
+
+	memmove(temp, &buf[2], 1);
+
+	tx_buf[8] = prot_num;
+	tx_buf[9] = atoi(temp);
+
+	can_calc_crc(tx_buf, 18);
+	print_can_arr(tx_buf, 18);
+}
+
 int main(int argc, char **argv)
 {
 	char *dev = "/dev/ttyUSB0";
 
 	int i, fd, cnt = 0;
 	char can_buf[BUF_SIZE] = {0};
-	char tx_buf[BUF_SIZE] = {0x2, 0x0, 0x8, 0x40, 0x1, 0x0, 0x0, 0x0,
-				 0x1, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0};
+	char temp[16] = {0};
+	char can_tx_buf[BUF_SIZE] = {0x2, 0x0, 0x8, 0x40, 0x1, 0x0, 0x0, 0x0,
+				 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x3};
 	struct termios newtio;
 	struct pollfd poll_events;
 	int poll_state;
@@ -61,8 +122,11 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-	//fd = open(dev, O_RDWR | O_NOCTTY | O_NONBLOCK);
-	fd = open(dev, O_RDWR | O_NOCTTY);
+	fd = open(dev, O_RDWR | O_NOCTTY | O_NONBLOCK);
+	//fd = open(dev, O_RDWR | O_NOCTTY);
+
+	printf("fd = %d\n", fd);
+
 	if(fd < 0)
 	{
 		printf("Open Error\n");
@@ -127,8 +191,8 @@ int main(int argc, char **argv)
         {
             close(serv_sock);
 
-		read(fd, can_buf, 18);
-		//printf("can_buf = %s\n", can_buf);
+	    read(fd, can_buf, 18);
+	    //printf("can_buf = %s\n", can_buf);
 
             while((len = read(clnt_sock, (char *)&buf, BUF_SIZE)) != 0)
             {
@@ -138,11 +202,14 @@ int main(int argc, char **argv)
 				else
 					printf("input = %s\n", buf);
 #endif
-				switch(atoi(&buf[0]))
+				memmove(temp, buf, 2);
+				printf("temp = %s\n", temp);
+
+				switch(atoi(temp))
 				{
 					case 1:
 						//write(fd, buf[0], 1);
-						write(fd, tx_buf, 18);
+						//write(fd, tx_buf, 18);
 						printf("(1) Turn Left\n");
 						break;
 					case 2:
@@ -161,7 +228,11 @@ int main(int argc, char **argv)
 						printf("(6) Collision Warn\n");
 						break;
 					case 7:
+						set_tx_winker_buf(buf, can_tx_buf, 7);
+						write(fd, can_tx_buf, 18);
 						printf("(7) Left Winker\n");
+						print_can_arr(can_tx_buf, 18);
+						memset(&can_tx_buf[8], 0x0, 8);
 						break;
 					case 8:
 						printf("(8) Right Winker\n");
@@ -179,7 +250,11 @@ int main(int argc, char **argv)
 						printf("(12) Specified Velocity or PWM Duty\n");
 						break;
 					case 13:
+						//set_tx_buf(buf, can_tx_buf);
+						set_tx_buf(buf, can_tx_buf, 13);
+						write(fd, can_tx_buf, 18);
 						printf("(13) Specified Angle or PWM Duty(Servo)\n");
+						memset(&can_tx_buf[8], 0x0, 8);
 						break;
 				}
 
