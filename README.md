@@ -75,6 +75,7 @@ int main(void)
 |DSP|How to Integrated Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSP_Integrated_Test_I.pdf)|
 |DSP|DSP Wi-Fi Secure AP Configuration Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/wl18xx_config)|
 |DSP|How to make Secure Wi-Fi AP on AM5728|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_Secure_AP.pdf)|
+|DSP|AM5728 Remote System Explorer Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_RSE_Configuration.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
