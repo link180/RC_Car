@@ -72,6 +72,7 @@ int main(void)
 |Design|TI AM5728 OpenCL Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/OpenCL_with_TI_AM5728.pdf)|
 |Git|How to Install Git on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_Git_on_Windows.pdf)|
 |Git and MCU|How to commit Project on GitHub with HET Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Commit_All_Proj_on_Github.pdf)|
+|DSP|How to Integrated Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSP_Integrated_Test_I.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
@@ -90,6 +91,7 @@ int main(void)
 |FPGA|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
 |MCU|Integrated Vehicle Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_MCU.pdf)|
 |MCU|BLDC Motor ESC Calibration with MCU|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ESC_Calibration_WITH_MCU.pdf)|
+|MCU|Integrated Vehicle Test I Source|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/Integration_Test_CAN_VCP)|
 |Control Theory|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
 |FPGA|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
 |DSP|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
@@ -137,6 +139,8 @@ int main(void)
 |MCU|Cortex-R5F Based ESC Calibration|[pdf](https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf)|
 |MCU|Cortex-R5F Based MPU9250 Control|[zip](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/__MPU9250.zip)|
 |MCU|Cortex-R5F Based MPU9250 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_MPU9250.pdf)|
+|MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
+|MCU|Quadcopter|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/QuadCopter)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
