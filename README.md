@@ -72,6 +72,12 @@ int main(void)
 |Design|TI AM5728 OpenCL Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/OpenCL_with_TI_AM5728.pdf)|
 |Git|How to Install Git on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_Git_on_Windows.pdf)|
 |Git and MCU|How to commit Project on GitHub with HET Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Commit_All_Proj_on_Github.pdf)|
+|DSP|How to Integrated Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSP_Integrated_Test_I.pdf)|
+|DSP|DSP Wi-Fi Secure AP Configuration Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/wl18xx_config)|
+|DSP|How to make Secure Wi-Fi AP on AM5728|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_Secure_AP.pdf)|
+|DSP|AM5728 Remote System Explorer Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_RSE_Configuration.pdf)|
+|DSP|Wi-Fi Matrix App Config Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_submenu), [link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_wifi)|
+|DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
@@ -90,6 +96,7 @@ int main(void)
 |FPGA|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
 |MCU|Integrated Vehicle Test I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_MCU.pdf)|
 |MCU|BLDC Motor ESC Calibration with MCU|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ESC_Calibration_WITH_MCU.pdf)|
+|MCU|Integrated Vehicle Test I Source|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/Integration_Test_CAN_VCP)|
 |Control Theory|Step Motor Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/stepmoter_test.pdf)|
 |FPGA|PMOD Step Motor Control with Vivado SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PMOD_Stepmotor_driver(SDK).pdf)|
 |DSP|DSP UART Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/uart_test.pdf)|
@@ -137,7 +144,7 @@ int main(void)
 |MCU|Cortex-R5F Based ESC Calibration|[pdf](https://github.com/KOITT2/RC_Car/blob/ec37dab8194b4303537663e19f7a4eda15f61fdf/experiment/doc/ESC%20Calibration.pdf)|
 |MCU|Cortex-R5F Based MPU9250 Control|[zip](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/__MPU9250.zip)|
 |MCU|Cortex-R5F Based MPU9250 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_MPU9250.pdf)|
-|MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test][pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
+|MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
 |MCU|Quadcopter|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/QuadCopter)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
@@ -157,9 +164,12 @@ int main(void)
 |MCU|Cortex-R5F Based ESP8266 TCP Server Connection|[pdf](https://github.com/KOITT2/RC_Car/blob/7fa370fb6248ab7f2028326d7877ce280d86308b/experiment/doc/esp8266/esp8266_connectWiFi_openTCPserver.pdf)|
 |MCU|Cortex-R5F Based eCAP Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/b2e2af9e28dad696bca7e2c9568909634bcd2a05/experiment/doc/ecap/TMS570LC43x_eCAP_datasheet_and_eCAP_example.pdf)|
 |MCU|Cortex-R5F Based ESP8266 Wi-Fi Connection|[pdf](https://github.com/KOITT2/RC_Car/blob/0a3cd1bb436c92cf9063173959813e6d0ee04bbc/experiment/doc/esp8266/ESP8266_Connect_WiFi.pdf)|
+|MCU|Cortex-R5F Based LCD Module Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/mcu_lcd/mcu_lcd.pdf)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
+|MCU|LCD Module Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/LCD_MODULE)|
+|Icon|Icon Design|[link](https://github.com/glgltldbs/RC_Car/tree/master/experiment/dsp/icon)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
@@ -191,6 +201,15 @@ int main(void)
 |Control Theory|Bode Plot|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BodePlot.pdf)|
 |Control Theory|Root Locus|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RootLocus.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/pid.pdf)|
+
+- Minho Kim:        minking12@naver.com
+
+![minho](./member_profile/minho_profile_1.jpg)
+
+|Subject|Title|Link|
+|-|-|-|
+|MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
+|MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 
@@ -242,6 +261,8 @@ int main(void)
 
 ![jiwan](./member_profile/jiwan_profile_1.jpg)
 
+|Subject|Title|Link|
+|-|-|-|
 |FreeRTOS|RTOS Example Analaysis & Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9C%A4%EC%A7%80%EC%99%84/rtos.pdf)|
 
 - Sangjae Ahn:			sangjae2015@naver.com
