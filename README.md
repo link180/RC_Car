@@ -200,6 +200,10 @@ int main(void)
 |Control Theory|Root Locus|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RootLocus.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/pid.pdf)|
 
+- Minho Kim:        minking12@naver.com
+
+![minho](./member_profile/minho_profile_1.jpg)
+
 - Taeyoung Eun:     zero_bird@naver.com
 
 ![taeyoung](./member_profile/taeyoung_profile_1.jpg)
