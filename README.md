@@ -211,6 +211,7 @@ int main(void)
 |-|-|-|
 |MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
 |MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
+|FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 
