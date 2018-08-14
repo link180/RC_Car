@@ -77,6 +77,7 @@ int main(void)
 |DSP|How to make Secure Wi-Fi AP on AM5728|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_Secure_AP.pdf)|
 |DSP|AM5728 Remote System Explorer Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_RSE_Configuration.pdf)|
 |DSP|Wi-Fi Matrix App Config Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_submenu), [link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_wifi)|
+|DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
