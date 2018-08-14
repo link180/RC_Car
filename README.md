@@ -205,6 +205,11 @@ int main(void)
 
 ![minho](./member_profile/minho_profile_1.jpg)
 
+|Subject|Title|Link|
+|-|-|-|
+|MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
+|MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
+
 - Taeyoung Eun:     zero_bird@naver.com
 
 ![taeyoung](./member_profile/taeyoung_profile_1.jpg)
