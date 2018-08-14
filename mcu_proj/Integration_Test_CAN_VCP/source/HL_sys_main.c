@@ -11,7 +11,7 @@ void send_data(uint8* msg, int length);
 int main(void)
 {
     uint8 rx_data[32] = {0,};
-    uint8 tx_data[8]= {8, 7, 6, 5, 1, 1, 1, 1};
+    uint8 tx_data[8]= {1, 1, 1, 1, 1, 1, 1, 1};
     int data = 0;
     int i, j;
     etpwmInit();
@@ -23,8 +23,8 @@ int main(void)
     canEnableErrorNotification(canREG1); //canIoSetDirection(canREG1, canMESSAGE_BOX1, canMESSAGE_BOX2);
     gioSetBit(gioPORTA, 0, 1);
 
-    for(i=0;i<1000;i++){
-        for(j=0;j<300000;j++)
+    for(i=0;;i++){
+        for(j=0;j<50000000;j++)
             ;
 
         canTransmit(canREG1, canMESSAGE_BOX1, (const uint8*)&tx_data[0]);
