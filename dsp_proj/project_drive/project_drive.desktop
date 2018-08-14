@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Autonomous Drive
+GenericName=AM5728 Autonomous Drive App
+Icon=/usr/share/matrix-gui-2.0/apps/images/Drivemode.png
+Type=Application
+Exec=drive.sh
+Categories=project
+ProgramType=gui
