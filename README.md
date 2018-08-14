@@ -169,6 +169,7 @@ int main(void)
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 |MCU|LCD Module Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/LCD_MODULE)|
+|Icon|Icon Design|[link](https://github.com/glgltldbs/RC_Car/tree/master/experiment/dsp/icon)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
@@ -260,6 +261,8 @@ int main(void)
 
 ![jiwan](./member_profile/jiwan_profile_1.jpg)
 
+|Subject|Title|Link|
+|-|-|-|
 |FreeRTOS|RTOS Example Analaysis & Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9C%A4%EC%A7%80%EC%99%84/rtos.pdf)|
 
 - Sangjae Ahn:			sangjae2015@naver.com
