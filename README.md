@@ -103,6 +103,8 @@ int main(void)
 |DSP|DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
 |Android|Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
 |Android|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
+|Android|Android Remote Controller|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/android/remote_controller)|
+|MCU|USB2CAN VCP & FIFO Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
