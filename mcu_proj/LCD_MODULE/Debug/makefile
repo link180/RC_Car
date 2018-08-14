@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-CG_TOOL_ROOT := /home/siyun/CCS/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS
+CG_TOOL_ROOT := /home/sdr/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -27,7 +27,6 @@ ORDERED_OBJS += \
 "./source/HL_sys_startup.obj" \
 "./source/HL_sys_vim.obj" \
 "./source/HL_system.obj" \
-"../source/HL_sys_link.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
 
@@ -149,21 +148,21 @@ BIN_OUTPUTS__QUOTED += \
 
 
 # All Target
-all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+all: $(OBJS) $(GEN_CMDS)
 	@$(MAKE) --no-print-directory -Onone "LCD_MODULE.out"
 
 # Tool invocations
-LCD_MODULE.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+LCD_MODULE.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: ARM Linker'
-	"/home/siyun/CCS/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"LCD_MODULE.map" --heap_size=0x800 --stack_size=0x800 -i"/home/siyun/CCS/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/lib" -i"/home/siyun/CCS/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_MODULE_linkInfo.xml" --rom_model --be32 -o "LCD_MODULE.out" $(ORDERED_OBJS)
+	"/home/sdr/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"LCD_MODULE.map" --heap_size=0x800 --stack_size=0x800 -i"/home/sdr/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"/home/sdr/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_MODULE_linkInfo.xml" --rom_model --be32 -o "LCD_MODULE.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 LCD_MODULE.hex: $(EXE_OUTPUTS)
 	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo 'Invoking: ARM Hex Utility'
-	"/home/siyun/CCS/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armhex"  -o "LCD_MODULE.hex" $(EXE_OUTPUTS__QUOTED)
+	"/home/sdr/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armhex"  -o "LCD_MODULE.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 
