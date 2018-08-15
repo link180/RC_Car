@@ -103,6 +103,8 @@ int main(void)
 |DSP|DSP CAN Test|[pdf](https://github.com/KOITT2/RC_Car/blob/46bf3eb58feb80001aa5408570c2a0c37105bed3/experiment/doc/DSP%20CAN(using_Serial_communication).pdf)|
 |Android|Android Studio Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
 |Android|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
+|Android|Android Remote Controller|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/android/remote_controller)|
+|MCU|USB2CAN VCP & FIFO Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
@@ -170,6 +172,7 @@ int main(void)
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 |MCU|LCD Module Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/LCD_MODULE)|
 |Icon|Icon Design|[link](https://github.com/glgltldbs/RC_Car/tree/master/experiment/dsp/icon)|
+|MCU|Cortex-R5F Based LCD Control Additional Work|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/mcu_lcd/LCD_MCU2.pdf)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
@@ -210,6 +213,7 @@ int main(void)
 |-|-|-|
 |MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
 |MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
+|FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 

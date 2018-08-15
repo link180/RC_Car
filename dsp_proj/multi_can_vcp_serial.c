@@ -118,7 +118,7 @@ void serial(char* dev)
                 //write( fd, buf, cnt);
 		cnt = read(fd, rx_buf, 21);
 
-                printf( "data received - %d (%s)\n0x ", cnt, dev);
+                printf( "data received - %d (%s)\n ", cnt, dev);
                 for(int i = 0;i < cnt; i++)
                     printf("%c ", rx_buf[i]);
                 printf("\n");
