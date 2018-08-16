@@ -188,6 +188,7 @@ int main(void)
 |MCU|Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
 |MCU|Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
 |MCU|Cortex-R5F Based MPU6050 with Servo Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_motor_Control_cover.pdf)|
+|MCU|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Lidar.pdf)|
 |FreeRTOS|FreeRTOS Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_basic_cover.pdf)|
 |FreeRTOS|FreeRTOS Can Based Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Can_motor_control_cover.pdf)|
 |Java|Java Server & CS Program|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/doc/test_server)|
