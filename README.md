@@ -301,6 +301,7 @@ int main(void)
 |Week Mission|2nd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf)|
 |Week Mission|3rd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180801_4%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C%26lidar.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/6%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%84%EC%A1%B0%ED%9B%84%EB%AF%B8%EB%93%B1.pdf)|
 
 - Yukyoung Chung:		ucong@naver.com
 
