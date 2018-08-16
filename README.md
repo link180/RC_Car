@@ -262,8 +262,10 @@ int main(void)
 |Subject|Title|Link|
 |-|-|-|
 |Week Mission|1st Mission(DMA)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
+|Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
 |FPGA|Zynq Zybo FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 |FPGA|Zynq Zybo Petalinux v2015.4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/petalinux(v2015-4).pdf)|
+|FPGA|Zynq Zybo PWM IP Creation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 
 - Jiwan Yoon:			yoonjw7894@naver.com
 
