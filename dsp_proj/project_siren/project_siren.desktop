@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Siren
+GenericName=AM5728 Siren App
+Icon=/usr/share/matrix-gui-2.0/apps/images/Siren_siyun.png
+Type=Application
+Exec=siren.sh
+Categories=project
+ProgramType=gui
