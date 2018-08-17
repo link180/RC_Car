@@ -79,6 +79,7 @@ int main(void)
 |DSP|Wi-Fi Matrix App Config Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_submenu), [link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_wifi)|
 |DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
 |DSP|TIDL Basics Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_Translation.pdf)|
+|DSP|TIDL API User Guide Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_API_User_Guide_Translation.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
