@@ -19,6 +19,10 @@ int main(void)
 }
 ```
 
+# Important Project Issue
+
+There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.15.
+
 # Master
 - Sanghoon Lee:			gcccompil3r@gmail.com
 
@@ -78,6 +82,8 @@ int main(void)
 |DSP|AM5728 Remote System Explorer Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_RSE_Configuration.pdf)|
 |DSP|Wi-Fi Matrix App Config Script|[link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_submenu), [link](https://github.com/KOITT2/RC_Car/tree/master/dsp_proj/project_wifi)|
 |DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
+|DSP|TIDL Basics Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_Translation.pdf)|
+|DSP|TIDL API User Guide Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_API_User_Guide_Translation.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
@@ -91,6 +97,7 @@ int main(void)
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0801.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0808.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0816.pdf)|
 |FreeRTOS|FreeRTOS Guide|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Guide.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/PID_Controller.pdf)|
 |FPGA|Zybo eCAP Loopback Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ZYBO_eCAP_loopback_test.pdf)|
@@ -148,10 +155,12 @@ int main(void)
 |MCU|Cortex-R5F Based MPU9250 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_MPU9250.pdf)|
 |MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
 |MCU|Quadcopter|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/QuadCopter)|
+|MCU|Quadcopter Non RTOS Test|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/pre_QuadCopter(none_RTOS))|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%204%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%206%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 
 - Siyun Kim:			glgltldbs@naver.com
 
@@ -187,6 +196,7 @@ int main(void)
 |MCU|Cortex-R5F Based ADC|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_ADC_.pdf)|
 |MCU|Cortex-R5F Based SCI|[pdf](https://github.com/KOITT2/RC_Car/blob/ec6a76b4c1ea1290a41551ca82224889786bfdff/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/%EC%A0%95%ED%95%9C%EB%B3%84_sci(uart)_.pdf)|
 |MCU|Cortex-R5F Based MPU6050 with Servo Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_motor_Control_cover.pdf)|
+|MCU|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C_Lidar.pdf)|
 |FreeRTOS|FreeRTOS Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_basic_cover.pdf)|
 |FreeRTOS|FreeRTOS Can Based Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Can_motor_control_cover.pdf)|
 |Java|Java Server & CS Program|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/doc/test_server)|
@@ -231,9 +241,11 @@ int main(void)
 |-|-|-|
 |MCU|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf)|
 |MCU|eQEP Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/eQEP_%EB%AC%B8%ED%95%9C%EB%82%98_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|FPGA|Vivado SDK Based UART|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/FPGA_UART(SDK).pdf)
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0801.pdf)|
+|Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0816.pdf)|
 
 - Hoseong Lee:			hslee00001@naver.com
 
@@ -258,8 +270,10 @@ int main(void)
 |Subject|Title|Link|
 |-|-|-|
 |Week Mission|1st Mission(DMA)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
+|Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
 |FPGA|Zynq Zybo FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 |FPGA|Zynq Zybo Petalinux v2015.4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/petalinux(v2015-4).pdf)|
+|FPGA|Zynq Zybo PWM IP Creation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 
 - Jiwan Yoon:			yoonjw7894@naver.com
 
@@ -280,6 +294,7 @@ int main(void)
 |MCU|Arduino Based ESP8266 Wi-Fi Module Firmware Upgrade|[pdf](https://github.com/KOITT2/RC_Car/blob/9f90c025ba363fa29cf6b206d5bd31125a4a26d3/test/test/1%EC%A3%BC%EC%B0%A8/wifi%20%EB%AA%A8%EB%93%88%20%ED%8E%8C%EC%9B%A8%EC%96%B4%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.pdf)|
 |MCU|SPI Communication(need to modify)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84.pdf)|
 |MCU|SPI Need to Modify|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84(MCU-MCU).pdf)|
+|MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
@@ -292,6 +307,7 @@ int main(void)
 |Week Mission|2nd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/369e9a757ae10e6ecb137bc0c373a5b8334c4157/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180718_02_I2C.pdf)|
 |Week Mission|3rd Mission(I2C)|[pdf](https://github.com/KOITT2/RC_Car/blob/c682607ddad56991138ffa1c859936ef803d4ad9/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/18_07_25_3%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180801_4%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C%26lidar.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/6%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%84%EC%A1%B0%ED%9B%84%EB%AF%B8%EB%93%B1.pdf)|
 
 - Yukyoung Chung:		ucong@naver.com
 
@@ -303,6 +319,7 @@ int main(void)
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180717_2%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/4%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD_Calibration%2C%20Putty%EC%9D%B4%EC%9A%A9%ED%95%9C%20duty%EC%A0%9C%EC%96%B4(%EB%AA%A8%ED%84%B0%EC%A0%9C%EC%96%B4).pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180808_5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EB%94%94%EC%BD%94%EB%8D%94_%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180816_6%ED%9A%8C%EC%B0%A8_LCD_Display.pdf)|
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
