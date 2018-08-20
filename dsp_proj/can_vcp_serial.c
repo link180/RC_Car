@@ -88,6 +88,7 @@ void serial(char* dev)
        fcntl(fd, F_SETFL, FNDELAY);
 
 	printf("start\n");
+	write(fd, "T=1\r\n",6);
 #if 1
        // poll 사용을 위한 준비
 
@@ -119,10 +120,12 @@ void serial(char* dev)
 		cnt = read(fd, rx_buf, 21);
 
                 printf( "data received - %d (%s)\n0x ", cnt, dev);
+#if 0
                 for(int i = 0;i < cnt; i++)
                     printf("%c ", rx_buf[i]);
                 printf("\n");
-
+#endif
+                printf("%s\n", rx_buf);
              }
              if ( poll_events.revents & POLLERR)      // event 가 에러?
              {
