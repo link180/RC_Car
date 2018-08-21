@@ -174,9 +174,7 @@ void check_status(int signo)
 
 int main(int argc, char **argv)
 {
-	char *dev = "/dev/ttyUSB0";
-
-	pid_t cam_pid = -1;
+    pid_t cam_pid = -1;
 
 	int i, fd, cnt = 0;
 	char can_buf[BUF_SIZE] = {0};
@@ -203,37 +201,6 @@ int main(int argc, char **argv)
         printf("use: %s <port>\n", argv[0]);
         exit(1);
     }
-
-	fd = open(dev, O_RDWR | O_NOCTTY | O_NONBLOCK);
-	//fd = open(dev, O_RDWR | O_NOCTTY);
-
-	printf("fd = %d\n", fd);
-
-	if(fd < 0)
-	{
-		printf("Open Error\n");
-		exit(-1);
-	}
-
-	memset(&newtio, 0, sizeof(newtio));
-	newtio.c_cflag = B921600 | CS8 | CLOCAL | CREAD;
-	newtio.c_oflag = 0;
-	newtio.c_lflag = 0;
-	newtio.c_cc[VTIME] = 0;
-	newtio.c_cc[VMIN] = 1;
-
-	tcflush(fd, TCIFLUSH);
-	tcsetattr(fd, TCSANOW, &newtio);
-	fcntl(fd, F_SETFL, FNDELAY);
-
-	poll_events.fd = fd;
-	poll_events.events = POLLIN | POLLERR;
-	poll_events.revents = 0;
-
-    act.sa_handler = read_cproc;
-    sigemptyset(&act.sa_mask);
-    act.sa_flags = 0;
-    state = sigaction(SIGCHLD, &act, 0);
 
     serv_sock = socket(PF_INET, SOCK_STREAM, 0);
 
@@ -273,7 +240,6 @@ int main(int argc, char **argv)
         {
             close(serv_sock);
 
-	    read(fd, can_buf, 18);
 	    //printf("can_buf = %s\n", can_buf);
 
             while((len = read(clnt_sock, (char *)&buf, BUF_SIZE)) != 0)
@@ -291,7 +257,7 @@ int main(int argc, char **argv)
 				{
 				    case 0:
 				        set_tx_emergency_buf(buf, can_tx_buf, 0);
-				        write(fd, can_tx_buf, 18);
+				        //write(fd, can_tx_buf, 18);
 				        printf("(0) Stop Motor\n");
 				        memset(&can_tx_buf[8], 0x0, 8);
 				        break;
@@ -317,7 +283,7 @@ int main(int argc, char **argv)
 						break;
 					case 7:
 						set_tx_winker_buf(buf, can_tx_buf, 7);
-						write(fd, can_tx_buf, 18);
+						//write(fd, can_tx_buf, 18);
 						printf("(7) Left Winker\n");
 						//print_can_arr(can_tx_buf, 18);
 						memset(&can_tx_buf[8], 0x0, 8);
@@ -336,14 +302,14 @@ int main(int argc, char **argv)
 						break;
 					case 12:
 					    set_servo_tx_buf(buf, can_tx_buf, 12);
-					    write(fd, can_tx_buf, 18);
+					    //write(fd, can_tx_buf, 18);
 						printf("(12) Specified Angle or PWM Duty(Servo)\n");
 						memset(&can_tx_buf[8], 0x0, 8);
 						break;
 					case 13:
 						//set_tx_buf(buf, can_tx_buf);
 						set_tx_buf(buf, can_tx_buf, 13);
-						write(fd, can_tx_buf, 18);
+						//write(fd, can_tx_buf, 18);
 						printf("(13) Specified Velocity or PWM Duty\n");
 						memset(&can_tx_buf[8], 0x0, 8);
 						break;
@@ -370,27 +336,6 @@ int main(int argc, char **argv)
 					    break;
 				}
 
-				poll_state = poll((struct pollfd *)&poll_events, 1, 1000);
-				if(poll_state > 0)
-				{
-					if(poll_events.revents & POLLIN)
-					{
-						cnt = read(fd, can_buf, BUF_SIZE);
-						can_buf[cnt - 1] = '\0';
-						usleep(1000);
-						printf("data received - %d (%s)\n", cnt, dev);
-
-						for(i = 0; i < cnt; i++)
-							printf("%x ", can_buf[i]);
-						printf("\n");
-					}
-					if(poll_events.revents & POLLERR)
-					{
-						printf("Communication Error\n");
-						break;
-					}
-				}
-
 				memset(buf, 0x0, sizeof(buf));
 
                 write(clnt_sock, (char *)&tx_buf, test_len);
@@ -404,7 +349,6 @@ int main(int argc, char **argv)
             close(clnt_sock);
     }
     close(serv_sock);
-	close(fd);
 
     return 0;
 }

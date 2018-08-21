@@ -13,13 +13,29 @@
 #include <sys/wait.h>
 
 #include <sys/stat.h>
+#include <errno.h>
 
 typedef struct sockaddr_in  si; 
 typedef struct sockaddr *   sp;
 
 #define BUF_SIZE		32
 
-int cam_proc_id;
+int make_daemon_monitor(void)
+{
+    pid_t pid = fork();
+
+    if(pid > 0)
+    {
+        signal(SIGCHLD, restart_daemon);
+        printf("Daemon Monitor On\n");
+        waitpid();
+    }
+    else if(pid == 0)
+    {
+        printf("This'll be a Daemon Process\n");
+        daemon_init();
+    }
+}
 
 void err_handler(char *msg)
 {
@@ -58,7 +74,6 @@ void can_calc_crc(char *buf, int num)
 	buf[16] = sum;
 }
 
-#if 0
 void set_tx_buf(char *buf, char *tx_buf, int prot_num)
 {
 	int i;
@@ -82,54 +97,6 @@ void set_tx_buf(char *buf, char *tx_buf, int prot_num)
 	can_calc_crc(tx_buf, 18);
 	print_can_arr(tx_buf, 18);
 }
-#endif
-
-void set_tx_buf(char *buf, char *tx_buf, int prot_num)
-{
-    int i;
-    char temp[16] = {0};
-    //printf("buf = %s\n", buf);
-    //printf("last = %x\n", buf[4]);
-
-    //for(i = 0; buf[i]; i++)
-    //  printf("%d\n", buf[i]);
-
-    memmove(temp, &buf[2], 4);
-
-    if(atoi(temp))
-    {
-        tx_buf[8] = prot_num;
-
-        tx_buf[9] = buf[2];
-        tx_buf[10] = buf[3];
-        tx_buf[11] = buf[4];
-        tx_buf[12] = buf[5];
-    }
-
-    can_calc_crc(tx_buf, 18);
-    print_can_arr(tx_buf, 18);
-}
-
-void set_servo_tx_buf(char *buf, char *tx_buf, int prot_num)
-{
-    int i;
-    char temp[16] = {0};
-
-    memmove(temp, &buf[2], 3);
-
-    // criteria = 0 ~ 180
-    if(atoi(temp))
-    {
-        tx_buf[8] = prot_num;
-
-        tx_buf[9] = buf[2];
-        tx_buf[10] = buf[3];
-        tx_buf[11] = buf[4];
-    }
-
-    can_calc_crc(tx_buf, 18);
-    print_can_arr(tx_buf, 18);
-}
 
 void set_tx_winker_buf(char *buf, char *tx_buf, int prot_num)
 {
@@ -145,38 +112,15 @@ void set_tx_winker_buf(char *buf, char *tx_buf, int prot_num)
 	print_can_arr(tx_buf, 18);
 }
 
-void set_tx_emergency_buf(char *buf, char *tx_buf, int prot_num)
+int main(int argc, char **argv)
 {
-    tx_buf[8] = 13;
-    tx_buf[9] = 1;
-    tx_buf[10] = 5;
-    tx_buf[11] = 0;
-    tx_buf[12] = 0;
-
-    can_calc_crc(tx_buf, 18);
-    print_can_arr(tx_buf, 18);
+    make_daemon_monitor();
 }
 
-void term_status(int status)
-{
-    if(WIFEXITED(status))
-        printf("(exit)status : 0x%x\n", WEXITSTATUS(status));
-    else if(WTERMSIG(status))
-        printf("(signal)status : 0x%x, %s\n", status & 0x7f, WCOREDUMP(status) ? "core dumped" : "");
-}
-
-void check_status(int signo)
-{
-    int status;
-    while(waitpid(-1, &status, WNOHANG) > 0)
-        term_status(status);
-}
-
+#if 0
 int main(int argc, char **argv)
 {
 	char *dev = "/dev/ttyUSB0";
-
-	pid_t cam_pid = -1;
 
 	int i, fd, cnt = 0;
 	char can_buf[BUF_SIZE] = {0};
@@ -289,12 +233,6 @@ int main(int argc, char **argv)
 
 				switch(atoi(temp))
 				{
-				    case 0:
-				        set_tx_emergency_buf(buf, can_tx_buf, 0);
-				        write(fd, can_tx_buf, 18);
-				        printf("(0) Stop Motor\n");
-				        memset(&can_tx_buf[8], 0x0, 8);
-				        break;
 					case 1:
 						//write(fd, buf[0], 1);
 						//write(fd, tx_buf, 18);
@@ -319,7 +257,7 @@ int main(int argc, char **argv)
 						set_tx_winker_buf(buf, can_tx_buf, 7);
 						write(fd, can_tx_buf, 18);
 						printf("(7) Left Winker\n");
-						//print_can_arr(can_tx_buf, 18);
+						print_can_arr(can_tx_buf, 18);
 						memset(&can_tx_buf[8], 0x0, 8);
 						break;
 					case 8:
@@ -335,39 +273,15 @@ int main(int argc, char **argv)
 						printf("(11) FPGA Lidar Meta Data\n");
 						break;
 					case 12:
-					    set_servo_tx_buf(buf, can_tx_buf, 12);
-					    write(fd, can_tx_buf, 18);
-						printf("(12) Specified Angle or PWM Duty(Servo)\n");
-						memset(&can_tx_buf[8], 0x0, 8);
+						printf("(12) Specified Velocity or PWM Duty\n");
 						break;
 					case 13:
 						//set_tx_buf(buf, can_tx_buf);
 						set_tx_buf(buf, can_tx_buf, 13);
 						write(fd, can_tx_buf, 18);
-						printf("(13) Specified Velocity or PWM Duty\n");
+						printf("(13) Specified Angle or PWM Duty(Servo)\n");
 						memset(&can_tx_buf[8], 0x0, 8);
 						break;
-					case 14:
-					    signal(SIGCHLD, check_status);
-					    cam_pid = fork();
-
-					    if(cam_pid > 0)
-					        cam_proc_id = cam_pid;
-					    else if(cam_pid == 0)
-					    {
-					        printf("(14) Camera On\n");
-					        execlp("/home/root/workspace/ocv/cam_record", "cam_record", 0);
-					    }
-
-					    break;
-					case 15:
-					    if(cam_proc_id > 1)
-					    {
-					        kill(cam_proc_id, 9);
-					        cam_proc_id = cam_pid = -1;
-					    }
-					    printf("(15) Camera Off\n");
-					    break;
 				}
 
 				poll_state = poll((struct pollfd *)&poll_events, 1, 1000);
@@ -408,3 +322,4 @@ int main(int argc, char **argv)
 
     return 0;
 }
+#endif
