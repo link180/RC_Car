@@ -11,7 +11,8 @@ using namespace std;
 
 int main(void)
 {
-    VideoCapture capture("raysha.mp4");
+    //VideoCapture capture("output.avi");
+    VideoCapture capture("super_hard.mp4");
 
     if(!capture.isOpened())
     {
@@ -43,17 +44,16 @@ int main(void)
         if(frame.empty())
             break;
 
-        cvtColor(frame, grayImage, COLOR_BGR2GRAY);
-        Canny(grayImage, edgeImage, 100, 200, 3);
+        //cvtColor(frame, grayImage, COLOR_BGR2GRAY);
+        //Canny(grayImage, edgeImage, 100, 200, 3);
 
         imshow("frame", frame);
-        imshow("edgeImage", edgeImage);
+        //imshow("edgeImage", edgeImage);
         waitKey(delay);
         int ckey = waitKey(delay);
         if(ckey == 27)
             break;
     }
-
 
     return 0;
 

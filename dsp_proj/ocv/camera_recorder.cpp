@@ -17,11 +17,12 @@ int main(void)
 	Size size = Size((int)inputVideo.get(CAP_PROP_FRAME_WIDTH), (int)inputVideo.get(CAP_PROP_FRAME_HEIGHT));
 	cout << "Size = " << size << endl;
 
-	int fourcc = VideoWriter::fourcc('x', 'v', 'i', 'd');
+	//int fourcc = VideoWriter::fourcc('x', 'v', 'i', 'd');
+	int fourcc = VideoWriter::fourcc('m', 'p', '4', 'v');
 
-	double fps = 24;
+	double fps = 30;
 	bool isColor = true;
-	VideoWriter outputVideo("output.avi", fourcc, fps, size, isColor);
+	VideoWriter outputVideo("output.mp4", fourcc, fps, size, isColor);
 	//VideoWriter outputVideo("output.mp4", fourcc, fps, size, isColor);
 
 	if(!outputVideo.isOpened())
