@@ -84,6 +84,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
 |DSP|TIDL Basics Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_Translation.pdf)|
 |DSP|TIDL API User Guide Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_API_User_Guide_Translation.pdf)|
+|DSP & FPGA|DSP & FPGA Socket Environment Setting|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSPnFPGA_Socket_Communication.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
