@@ -100,10 +100,10 @@ void set_tx_buf(char *buf, char *tx_buf, int prot_num)
     {
         tx_buf[8] = prot_num;
 
-        tx_buf[9] = buf[2];
-        tx_buf[10] = buf[3];
-        tx_buf[11] = buf[4];
-        tx_buf[12] = buf[5];
+        tx_buf[9] = buf[3];
+        tx_buf[10] = buf[4];
+        tx_buf[11] = buf[5];
+        tx_buf[12] = buf[6];
     }
 
     can_calc_crc(tx_buf, 18);
@@ -122,9 +122,9 @@ void set_servo_tx_buf(char *buf, char *tx_buf, int prot_num)
     {
         tx_buf[8] = prot_num;
 
-        tx_buf[9] = buf[2];
-        tx_buf[10] = buf[3];
-        tx_buf[11] = buf[4];
+        tx_buf[9] = buf[3];
+        tx_buf[10] = buf[4];
+        tx_buf[11] = buf[5];
     }
 
     can_calc_crc(tx_buf, 18);
