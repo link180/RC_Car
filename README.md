@@ -85,6 +85,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |DSP|TIDL Basics Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_Translation.pdf)|
 |DSP|TIDL API User Guide Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_API_User_Guide_Translation.pdf)|
 |DSP & FPGA|DSP & FPGA Socket Environment Setting|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSPnFPGA_Socket_Communication.pdf)|
+|DSP|Server Design Documentation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Server_Design.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
