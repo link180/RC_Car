@@ -238,6 +238,13 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 ![taeyoung](./member_profile/taeyoung_profile_1.jpg)
 
+|Subject|Title|Link|
+|-|-|-|
+|MCU|GIO Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20GIO.pdf)|
+|FreeRTOS|Role of FreeRTOS Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20FreeRTOS_%EC%A7%84%ED%96%89%20%EB%B0%A9%ED%96%A5.pdf)|
+|FreeRTOS|FreeRTOS Queue Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_queue.pdf)|
+|FreeRTOS|FreeRTOS Task Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_task.pdf)|
+
 - Wooseok Lee:			colre99@naver.com
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
