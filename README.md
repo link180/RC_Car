@@ -118,6 +118,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Android|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
 |Android|Android Remote Controller|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/android/remote_controller)|
 |MCU|USB2CAN VCP & FIFO Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN)|
+|MCU|Second Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN_2nd)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
