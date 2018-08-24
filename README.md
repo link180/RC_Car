@@ -88,6 +88,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |DSP & FPGA|DSP & FPGA Socket Environment Setting|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSPnFPGA_Socket_Communication.pdf)|
 |Design|Server Design Documentation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Server_Design.pdf)|
 |PCB|Interlocked with OrCAD & Altium Designer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Interlocked_with_OrCAD_n_Altium_Designer.pdf)|
+|PCB|Altium Designer Basics I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium_Basics_I.pdf)|
+|PCB|Altium Designer Basics II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium_Basics_II.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
