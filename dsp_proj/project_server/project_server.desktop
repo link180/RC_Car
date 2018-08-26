@@ -6,4 +6,4 @@ Icon=/usr/share/matrix-gui-2.0/apps/images/Server.png
 Type=Application
 Exec=server.sh
 Categories=project
-ProgramType=gui
+ProgramType=console
