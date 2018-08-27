@@ -45,7 +45,9 @@
 #define D2R  0.0174533
 #define GYRO2DEGREE_PER_SEC  65.5
 
-
+double pitch;
+double roll;
+double yaw;
 
 //Magnetometer Registers
 #define AK8963_ADDRESS   0x0C
@@ -235,9 +237,7 @@ uint8 Mmode = 0x02;        // 2 for 8 Hz, 6 for 100 Hz continuous magnetometer d
 
 float ax, ay, az, gx, gy, gz, mx, my, mz; // variables to hold latest sensor data values
 
-double pitch;
-double roll;
-double yaw;
+
 
 int16_t accelCount[3];  // Stores the 16-bit signed accelerometer sensor output
 int16_t gyroCount[3];   // Stores the 16-bit signed gyro sensor output
@@ -732,6 +732,7 @@ void get_YPR(void){
     roll = angle_roll_acc  * D2R;
     pitch = angle_pitch_acc * D2R;
     yaw += g_xyz[2] * t * D2R;
+
 //    angle_pitch_acc -= 0.0;                                              //Accelerometer calibration value for pitch
 //    angle_roll_acc -= 0.0;                                               //Accelerometer calibration value for roll
 

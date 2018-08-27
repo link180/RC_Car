@@ -3,7 +3,7 @@
   <DEVICE>
     <family>TMS570LC43x</family>
     <device>TMS570LC4357ZWT</device>
-    <dilfile>pre_QuadCopter.dil</dilfile>
+    <dilfile>I2C_BMP280.dil</dilfile>
     <tools>ti</tools>
   </DEVICE>
   <VERSION>
@@ -229,18 +229,14 @@
       <HDRRTI>
         <NAME>HL_rti.h</NAME>
       </HDRRTI>
-      <SRCRTI>
-        <NAME>HL_rti.c</NAME>
-      </SRCRTI>
+      <SRCRTI/>
       <HDRGIO_R>
         <NAME>HL_reg_gio.h</NAME>
       </HDRGIO_R>
       <HDRGIO>
         <NAME>HL_gio.h</NAME>
       </HDRGIO>
-      <SRCGIO>
-        <NAME>HL_gio.c</NAME>
-      </SRCGIO>
+      <SRCGIO/>
       <HDRESM_R>
         <NAME>HL_reg_esm.h</NAME>
       </HDRESM_R>
@@ -410,9 +406,7 @@
       <HDRETPWM>
         <NAME>HL_etpwm.h</NAME>
       </HDRETPWM>
-      <SRCETPWM>
-        <NAME>HL_etpwm.c</NAME>
-      </SRCETPWM>
+      <SRCETPWM/>
       <HDRECAP_R>
         <NAME>HL_reg_ecap.h</NAME>
       </HDRECAP_R>
@@ -491,7 +485,7 @@
         <PATH>include\HL_rti.h</PATH>
       </HDRRTI>
       <SRCRTI>
-        <PATH>source\HL_rti.c</PATH>
+        <PATH/>
       </SRCRTI>
     </FILENAMES>
   </RTI>
@@ -504,7 +498,7 @@
         <PATH>include\HL_gio.h</PATH>
       </HDRGIO>
       <SRCGIO>
-        <PATH>source\HL_gio.c</PATH>
+        <PATH/>
       </SRCGIO>
     </FILENAMES>
   </GIO>
@@ -764,7 +758,7 @@
         <PATH>include\HL_etpwm.h</PATH>
       </HDRETPWM>
       <SRCETPWM>
-        <PATH>source\HL_etpwm.c</PATH>
+        <PATH/>
       </SRCETPWM>
     </FILENAMES>
   </ETPWM>

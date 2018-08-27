@@ -13,8 +13,8 @@
 #include <stdio.h>
 #include <time.h>
 
-#define THROTTLE_MAX 1500;
-#define THROTTLE_MIN 1000;
+#define THROTTLE_MAX    1800
+#define THROTTLE_MIN    1080
 
 #define QUAD_MASS  2.2
 #define L  0.225 // length of arm
@@ -44,7 +44,7 @@ float F[4] = {0};
 float motorA_PWM, motorB_PWM, motorC_PWM, motorD_PWM;//각 모터별 RPM
 float w_A , w_B  , w_C  , w_D ;//각 모터별 각속도
 float VoltA, VoltB, VoltC, VoltD;
-float throttle = 1000.0; // PWM
+float throttle = 1250.0; // PWM
 
 uint32 rx_data =0;
 uint32 tmp =0;
@@ -65,11 +65,11 @@ unsigned long t_prev;
 float roll_target_angle = 0.0;
 float roll_angle_in;
 float roll_rate_in;
-float roll_stabilize_kp = 1;  // angle kp
+float roll_stabilize_kp = 3.5;  // angle kp
 float roll_stabilize_ki = 0;  // angle ki
-float roll_rate_kp = 1;  // angle rate kp setting
-float roll_rate_ki = 0;  // angle rate ki setting
-float roll_rate_kd = 0;  // angle rate kd setting
+float roll_rate_kp = 0.004;  // angle rate kp setting
+float roll_rate_ki = 0.0035;  // angle rate ki setting
+float roll_rate_kd = 0.0006;  // angle rate kd setting
 float roll_prev_rate_error = 0;
 float roll_stabilize_iterm;
 float roll_rate_iterm;
@@ -78,11 +78,11 @@ float roll_output;
 float pitch_target_angle = 0.0;
 float pitch_angle_in;
 float pitch_rate_in;
-float pitch_stabilize_kp = 1;
+float pitch_stabilize_kp = 3.5;
 float pitch_stabilize_ki = 0;
-float pitch_rate_kp = 1;
-float pitch_rate_ki = 0;
-float pitch_rate_kd = 0;
+float pitch_rate_kp = 0.004;
+float pitch_rate_ki = 0.0035;
+float pitch_rate_kd = 0.0006;
 float pitch_prev_rate_error = 0;
 float pitch_stabilize_iterm = 0;
 float pitch_rate_iterm = 0;
@@ -91,15 +91,16 @@ float pitch_output = 0;
 float yaw_target_angle = 0.0;
 float yaw_angle_in;
 float yaw_rate_in;
-float yaw_stabilize_kp = 1;
+float yaw_stabilize_kp = 2.5;
 float yaw_stabilize_ki = 0;
-float yaw_rate_kp = 1;
-float yaw_rate_ki = 0;
+float yaw_rate_kp = 0.033;
+float yaw_rate_ki = 0.0035;
 float yaw_rate_kd = 0;
 float yaw_prev_rate_error = 0;
 float yaw_stabilize_iterm = 0;
 float yaw_rate_iterm = 0;
 float yaw_output = 0;
+
 
 
 /*초기 시간 값*/
@@ -311,42 +312,39 @@ void calcMotorPWM(void){
   VoltC = (w_C * 60) / (2 * M_PI * 320);
   VoltD = (w_D * 60) / (2 * M_PI * 320);
 
-  motorA_PWM = 1000 + VoltA * 45.045; // 1000 + (VoltA / 22.2V)(duty)  * 1000 -> PWM
-  motorB_PWM = 1000 + VoltB * 45.045;
-  motorC_PWM = 1000 + VoltC * 45.045;
-  motorD_PWM = 1000 + VoltD * 45.045;
+  motorA_PWM = throttle + VoltA * 45.045 + 55; // 1000 + (VoltA / 22.2V)(duty)  * 1000 -> PWM
+  motorB_PWM = throttle + VoltB * 45.045 ;
+  motorC_PWM = throttle + VoltC * 45.045;
+  motorD_PWM = throttle + VoltD * 45.045 + 23;
 
   //PWM값은 1000~2000이므로 각 경계값마다의 보정작업, 내 모터는 토크가 워낙 쎄기 때문에 최대 1500으로 일단 고정.//
-  if(motorA_PWM < 1000){
-      motorA_PWM = 1000;
-  } if(motorA_PWM > 1500){
-      motorA_PWM = 1500;
-  } if(motorB_PWM < 1000){
-      motorB_PWM = 1000;
-  } if(motorB_PWM > 1500){
-      motorB_PWM = 1500;
-  } if(motorC_PWM < 1000){
-      motorC_PWM = 1000;
-  } if(motorC_PWM > 1500){
-      motorC_PWM = 1500;
-  } if(motorD_PWM < 1000){
-      motorD_PWM = 1000;
-  } if(motorD_PWM > 1500){
-      motorD_PWM = 1500;
+  if(motorA_PWM < THROTTLE_MIN){
+      motorA_PWM = THROTTLE_MIN;
+  } if(motorA_PWM > THROTTLE_MAX){
+      motorA_PWM = THROTTLE_MAX;
+  } if(motorB_PWM < THROTTLE_MIN){
+      motorB_PWM = THROTTLE_MIN;
+  } if(motorB_PWM > THROTTLE_MAX){
+      motorB_PWM = THROTTLE_MAX;
+  } if(motorC_PWM < THROTTLE_MIN){
+      motorC_PWM = THROTTLE_MIN;
+  } if(motorC_PWM > THROTTLE_MAX){
+      motorC_PWM = THROTTLE_MAX;
+  } if(motorD_PWM < THROTTLE_MIN){
+      motorD_PWM = THROTTLE_MIN;
+  } if(motorD_PWM > THROTTLE_MAX){
+      motorD_PWM = THROTTLE_MAX;
   }
-//    sprintf(txt_buf, "pwmA = %f \t pwmB = %f \t pwmC = %f \t pwmD= %f \n\r\0",
-//            motorA_PWM, motorB_PWM, motorC_PWM, motorD_PWM);
+    sprintf(txt_buf, "pwmA = %f \t pwmB = %f \t pwmC = %f \t pwmD= %f \n\r\0",
+            motorA_PWM, motorB_PWM, motorC_PWM, motorD_PWM);
 
     buf_len = strlen(txt_buf);
     sciDisplayText(sciREG1, (uint8 *) txt_buf, buf_len);
-    etpwmSetCmpA(etpwmREG1, motorA_PWM);
-    wait(100);
-    etpwmSetCmpA(etpwmREG2, motorB_PWM);
-    wait(100);
-    etpwmSetCmpA(etpwmREG3, motorC_PWM);
-    wait(100);
-    etpwmSetCmpA(etpwmREG4, motorD_PWM);
-    wait(100);
+//    etpwmSetCmpA(etpwmREG1, motorA_PWM);    // front ccw
+    etpwmSetCmpA(etpwmREG2, motorB_PWM);  // rear cw
+//    etpwmSetCmpA(etpwmREG3, motorC_PWM);    // rear ccw
+    etpwmSetCmpA(etpwmREG4, motorD_PWM);  // front cw
+
 }
 
 void calcYPRtoDualPID(void){
@@ -435,4 +433,4 @@ void itoa(int num, char *c){  // integer to ascii
     *(c+count) = '\0';
 }
 
-#endif /* INCLUDE_QUADCOPTER_H_ */
+#endif

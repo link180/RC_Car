@@ -206,8 +206,6 @@ void print_max4(float m[16]){
 
 void m_4x4_4x1(float m[16], float a[4], float r[4]){   // mul 4by4 x 4by1
 
-
-
     r[0] = m[0] * a[0] + m[1] * a[1] + m[2] * a[2] + m[3] * a[3];
     r[1] = m[4] * a[0] + m[5] * a[1] + m[6] * a[2] + m[7] * a[3];
     r[2] = m[8] * a[0] + m[9] * a[1] + m[10] * a[2] + m[11] * a[3];
