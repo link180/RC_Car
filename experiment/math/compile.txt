@@ -1,1 +1,0 @@
-gcc vector3d.c vector_test.c
