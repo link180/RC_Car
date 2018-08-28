@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Lightmode
+GenericName=AM5728 Lightmode App
+Icon=/usr/share/matrix-gui-2.0/apps/images/lightmode.png
+Type=Application
+Exec=lightmode.sh
+Categories=project
+ProgramType=gui

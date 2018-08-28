@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Kill Server
+GenericName=AM5728 Server Killing App
+Icon=/usr/share/matrix-gui-2.0/apps/images/kill_server.png
+Type=Application
+Exec=kill_server.sh
+Categories=project
+ProgramType=console
