@@ -166,6 +166,10 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
 |MCU|Quadcopter|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/QuadCopter)|
 |MCU|Quadcopter Non RTOS Test|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/pre_QuadCopter(none_RTOS))|
+|MCU|Remote Controller Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RC_CONTROLLER.pdf)|
+|MCU|Remote Controller Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/RC_controller_ecap)|
+|MCU|BME280 Altitude Sensor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_BMP280.pdf)|
+|MCU|BME280 Altitude Sensor Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/I2C_BMP280)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
