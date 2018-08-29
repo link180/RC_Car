@@ -122,6 +122,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|USB2CAN VCP & FIFO Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN)|
 |MCU|Second Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN_2nd)|
 |MCU|Second Integrated Test Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/2nd_Integration_Test_MCU.pdf)|
+|BOM|BOM List of Project Board Car|[link](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EB%B3%B4%EB%93%9C%EC%B9%B4%20BOM.xlsx)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
