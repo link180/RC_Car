@@ -1,0 +1,45 @@
+1. FPGA 와 DSP 의 LAN 통신을 구현하려고 한다.
+   어떻게 해야할까 ?
+
+상호간 Ethernet 드라이버를 활성화시키고 라우팅 테이블을 작성한다.
+
+2. vmalloc() 을 사용해야 하는 이유가 무엇인가 ?
+
+메모리가 언제나 연속적으로 배치될 수 없기 때문인데
+중간에 데이터가 있는 경우 불연속적으로 배치할 수 있도록 vmalloc() 을 사용하도록 한다.
+
+3. mmap() 시스템 콜은 어디에 사용하는가 ?
+
+특정 Peripheral 의 레지스터 등의 주소에 접근하고자 할 때 사용하는 시스템 콜이다.
+
+4. FPGA 에서 Buzzer 를 제어하고자 한다.
+   어떻게 해야 하는가 ?
+
+Vivado 로 HW IP 를 설계하고 이후에 petalinux 를 활용해서 해당 PWM IP 를 활성화시키도록 한다.
+
+5. wlan 시스템이 활성화 되지 않는 경우는 어떤 경우인가 ?
+
+Wireless Device Driver 가 정상적으로 구동되지 않거나 활성화되지 않았을 경우에 해당한다.
+
+6. Wi-Fi 및 Bluetooth 를 사용하고자 한다.
+   Antenna 의 주파수 매칭을 어떻게 해야하는가 ?
+
+2.4 GHz 혹은 5.0 GHz 로 맞춰줘야 정상적으로 무선 통신을 수행할 수 있다.
+
+7. IIO 를 활성화시킬 경우에 무엇을 사용할 수 있는가 ?
+
+리눅스 기반의 FPGA 에서 오실로스코프나 스펙트럼 분석기를 만들 수 있다.
+
+8. Vivado 에서 설계한 HW IP 를 petalinux 에서 활용하고자 한다.
+   어떻게 해야하는가 ?
+
+petalinux-config --get-hw-description='*.sdk'
+'*' 에 설계한 HW IP 를 넣으면 된다.
+
+9. petalinux-create -t apps -n driver --enable 은 무엇을 하는가 ?
+
+Xilinx FPGA 상에 올라가는 Linux 에 애플리케이션(driver)을 만들게 된다.
+
+10. petalinux-package 는 무엇을 하는 명령어인가 ?
+
+RAM disk 이미지인 urootfs.cpio.gz 대신 uImage 를 사용하고자 할 경우 petalinux-package 를 통해서 패키징을 수행한다.
