@@ -376,3 +376,4 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Subject|Title|Link|
 |-|-|-|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/ccdc85d21cb431de748dff5812b0fff4dc35d586/_1%EC%A3%BC%EC%B0%A8%200711_%ED%95%98%EC%84%B1%EC%9A%A9.pdf)|
+|BOM|BOM List of You Ja Cha|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%95%98%EC%84%B1%EC%9A%A9/8%EC%9B%9429%EC%9D%BC%EC%9E%90_BOM.pdf)|
