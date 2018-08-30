@@ -203,6 +203,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|LCD Module Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/LCD_MODULE)|
 |Icon|Icon Design|[link](https://github.com/glgltldbs/RC_Car/tree/master/experiment/dsp/icon)|
 |MCU|Cortex-R5F Based LCD Control Additional Work|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/mcu_lcd/LCD_MCU2.pdf)|
+|FPGA|MPU9250 with Timer|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/mpu9250_time)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
