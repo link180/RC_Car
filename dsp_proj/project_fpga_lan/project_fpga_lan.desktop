@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Lan Server between AM5728 & FPGA
+GenericName=AM5728 Based FPGA Lan Server
+Icon=/usr/share/matrix-gui-2.0/apps/images/eternet_icon.png
+Type=Application
+Exec=lan_server.sh
+Categories=project
+ProgramType=console

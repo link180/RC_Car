@@ -2,7 +2,7 @@
 [Desktop Entry]
 Name=Can Communication
 GenericName=AM5728 CAN App
-Icon=/usr/share/matrix-gui-2.0/apps/images/Can.png
+Icon=/usr/share/matrix-gui-2.0/apps/images/can_icon.png
 Type=Application
 Exec=can.sh
 Categories=project

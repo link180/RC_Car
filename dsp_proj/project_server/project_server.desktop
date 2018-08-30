@@ -2,7 +2,7 @@
 [Desktop Entry]
 Name=AM5728 Main Server
 GenericName=AM5728 Server App
-Icon=/usr/share/matrix-gui-2.0/apps/images/Server.png
+Icon=/usr/share/matrix-gui-2.0/apps/images/server2_icon.png
 Type=Application
 Exec=server.sh
 Categories=project
