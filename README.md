@@ -246,6 +246,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |-|-|-|
 |MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
 |MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
+|MCU|Cortex-R5F Based Buzzer with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Buzzer_CAN.pdf)|
+|MCU|Cortex-R5F Based Break Light with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Break_Signal.pdf)|
 |FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
