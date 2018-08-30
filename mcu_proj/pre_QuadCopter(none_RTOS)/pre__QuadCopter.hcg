@@ -315,7 +315,9 @@
       <HDRHTU>
         <NAME>HL_htu.h</NAME>
       </HDRHTU>
-      <SRCHET/>
+      <SRCHET>
+        <NAME>HL_het.c</NAME>
+      </SRCHET>
       <HET2ASMHDR>
         <NAME/>
       </HET2ASMHDR>
@@ -419,7 +421,9 @@
       <HDRECAP>
         <NAME>HL_ecap.h</NAME>
       </HDRECAP>
-      <SRCECAP/>
+      <SRCECAP>
+        <NAME>HL_ecap.c</NAME>
+      </SRCECAP>
       <HDREQEP_R>
         <NAME>HL_reg_eqep.h</NAME>
       </HDREQEP_R>
@@ -617,7 +621,7 @@
         <PATH>include\HL_htu.h</PATH>
       </HDRHTU>
       <SRCHET>
-        <PATH/>
+        <PATH>source\HL_het.c</PATH>
       </SRCHET>
     </FILENAMES>
   </HET>
@@ -777,7 +781,7 @@
         <PATH>include\HL_ecap.h</PATH>
       </HDRECAP>
       <SRCECAP>
-        <PATH/>
+        <PATH>source\HL_ecap.c</PATH>
       </SRCECAP>
     </FILENAMES>
   </ECAP>

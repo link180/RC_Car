@@ -95,6 +95,11 @@ extern void rtiCompare0Interrupt(void);
 extern void rtiCompare1Interrupt(void);
 extern void rtiCompare2Interrupt(void);
 extern void rtiCompare3Interrupt(void);
+extern void ecap1Interrupt(void);
+extern void ecap2Interrupt(void);
+extern void ecap3nterrupt(void);
+extern void ecap4Interrupt(void);
+extern void ecap5Interrupt(void);
 
 /* USER CODE BEGIN (3) */
 /* USER CODE END */
@@ -367,11 +372,11 @@ typedef struct vim_config_reg
                                     |(uint32)((uint32)0U << 5U)\
                                     |(uint32)((uint32)0U << 6U)\
                                     |(uint32)((uint32)0U << 7U)\
-                                    |(uint32)((uint32)0U << 8U)\
-                                    |(uint32)((uint32)0U << 9U)\
-                                    |(uint32)((uint32)0U << 10U)\
-                                    |(uint32)((uint32)0U << 11U)\
-                                    |(uint32)((uint32)0U << 12U)\
+                                    |(uint32)((uint32)1U << 8U)\
+                                    |(uint32)((uint32)1U << 9U)\
+                                    |(uint32)((uint32)1U << 10U)\
+                                    |(uint32)((uint32)1U << 11U)\
+                                    |(uint32)((uint32)1U << 12U)\
                                     |(uint32)((uint32)0U << 13U)\
                                     |(uint32)((uint32)0U << 14U)\
                                     |(uint32)((uint32)0U << 15U)\

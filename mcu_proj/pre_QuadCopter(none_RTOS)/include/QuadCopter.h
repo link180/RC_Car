@@ -10,10 +10,11 @@
 
 #include "MPU9250.h"
 #include "Matrix.h"
+
 #include <stdio.h>
 #include <time.h>
 
-#define THROTTLE_MAX    1800
+#define THROTTLE_MAX    1750
 #define THROTTLE_MIN    1080
 
 #define QUAD_MASS  2.2
@@ -22,6 +23,7 @@
 #define KD  0.0000983489586    // Moment Coef
 #define GRAVITY  9.81
 #define M_R   (KT / KD)  // 힘과 모멘트의 상관관계 계수
+
 
 /*제어기 관련 변수*/
 max1 m_3x1_eta; // inertia frame에서의 각도
@@ -44,22 +46,30 @@ float F[4] = {0};
 float motorA_PWM, motorB_PWM, motorC_PWM, motorD_PWM;//각 모터별 RPM
 float w_A , w_B  , w_C  , w_D ;//각 모터별 각속도
 float VoltA, VoltB, VoltC, VoltD;
-float throttle = 1250.0; // PWM
+//float throttle = 1250.0; // PWM
 
+/*Uart */
 uint32 rx_data =0;
 uint32 tmp =0;
 uint32 value =0;
-uint32 duty_arr[10] = {1000, 1020, 1040, 1060, 1080, 1100, 1150, 1200, 1400,1500};
 
 
-/*쿼드로터 관련 변수*/
-extern double roll;
-extern double pitch;
-extern double yaw;
+/*쿼드로터 각도 관련 변수*/
+extern float roll;
+extern float pitch;
+extern float yaw;
+
+extern float init_pitch;
+extern float init_roll;
+extern float init_yaw;
 //시간관련 값//
 float dt = 0.0025;
 unsigned long t_now;
 unsigned long t_prev;
+
+/*조종기 관련 변수*/
+extern float real_elev,real_rudd,real_ail,throttle;  // 조종기 전후진, 좌우회전, 제자리 회전, 스로틀
+static int stop_n_start = -1;
 
 //이중루프PID에서 제어할 변수들(Roll, Pitch, Yaw)//
 float roll_target_angle = 0.0;
@@ -101,6 +111,20 @@ float yaw_stabilize_iterm = 0;
 float yaw_rate_iterm = 0;
 float yaw_output = 0;
 
+void initDT(void);
+void calcDT(void);
+
+void initYPR(void);
+void dualPID(float target_angle, float angle_in, float rate_in,
+             float stabilize_kp, float stabilize_ki, float rate_kp,
+             float rate_ki, float rate_kd, float *prev_rate_error, float *stabilize_iterm, float *rate_iterm,
+             float *output);
+void initMotorPWM(void);
+void get_C(float phi, float theta, float psi, max3 *C);
+void initMotorPWM(void);
+void get_C(float phi, float theta, float psi, max3 *C);
+void get_Iv(void);
+void h_cal_controller(float elev, float rudd, float ail, float sns);
 
 
 /*초기 시간 값*/
@@ -128,9 +152,12 @@ void initYPR(void)
     /*for mpu9250*/
     get_YPR();
 
-    roll_target_angle = roll;
-    pitch_target_angle = pitch;
-    yaw_target_angle = yaw;
+    init_roll = roll;
+    init_pitch = pitch;
+    init_yaw = yaw;
+    roll_target_angle = init_roll;
+    pitch_target_angle = init_pitch;
+    yaw_target_angle = init_yaw;
 
     /*for mpu6050*/
 //    get_mpu6050_RPY();
@@ -312,10 +339,10 @@ void calcMotorPWM(void){
   VoltC = (w_C * 60) / (2 * M_PI * 320);
   VoltD = (w_D * 60) / (2 * M_PI * 320);
 
-  motorA_PWM = throttle + VoltA * 45.045 + 55; // 1000 + (VoltA / 22.2V)(duty)  * 1000 -> PWM
-  motorB_PWM = throttle + VoltB * 45.045 ;
-  motorC_PWM = throttle + VoltC * 45.045;
-  motorD_PWM = throttle + VoltD * 45.045 + 23;
+  motorA_PWM = throttle + VoltA * 45.045 - real_elev + real_rudd - real_ail ; // 1000 + (VoltA / 22.2V)(duty)  * 1000 -> PWM
+  motorB_PWM = throttle + VoltB * 45.045 + real_elev + real_rudd + real_ail ;
+  motorC_PWM = throttle + VoltC * 45.045 + real_elev - real_rudd - real_ail ;
+  motorD_PWM = throttle + VoltD * 45.045 - real_elev - real_rudd + real_ail ;
 
   //PWM값은 1000~2000이므로 각 경계값마다의 보정작업, 내 모터는 토크가 워낙 쎄기 때문에 최대 1500으로 일단 고정.//
   if(motorA_PWM < THROTTLE_MIN){
@@ -340,17 +367,18 @@ void calcMotorPWM(void){
 
     buf_len = strlen(txt_buf);
     sciDisplayText(sciREG1, (uint8 *) txt_buf, buf_len);
-//    etpwmSetCmpA(etpwmREG1, motorA_PWM);    // front ccw
+
+    etpwmSetCmpA(etpwmREG1, motorA_PWM);    // front ccw
     etpwmSetCmpA(etpwmREG2, motorB_PWM);  // rear cw
-//    etpwmSetCmpA(etpwmREG3, motorC_PWM);    // rear ccw
+    etpwmSetCmpA(etpwmREG3, motorC_PWM);    // rear ccw
     etpwmSetCmpA(etpwmREG4, motorD_PWM);  // front cw
 
 }
 
 void calcYPRtoDualPID(void){
 
-    char txt_buf[256] = { 0 };
-    unsigned int buf_len;
+//    char txt_buf[256] = { 0 };
+//    unsigned int buf_len;
 
     dualPID(roll_target_angle,
               roll_angle_in,
@@ -394,13 +422,12 @@ void calcYPRtoDualPID(void){
               &yaw_rate_iterm,
               &yaw_output
       );
-//      sprintf(txt_buf,
-//             "roll_output = %lf \t pitch_output = %lf \t yaw_output = %lf \n\r\0",
-//             roll_output, pitch_output, yaw_output);
+
+//      sprintf(txt_buf, "r_t = %f \t p_t = %f \t y_t = %f \n\r\0",
+//              roll_target_angle * R2D, pitch_target_angle * R2D, yaw_target_angle * R2D);
 //
 //      buf_len = strlen(txt_buf);
 //      sciDisplayText(sciREG1, (uint8 *) txt_buf, buf_len);
-
 }
 
 void pwmSet(){
@@ -431,6 +458,39 @@ void itoa(int num, char *c){  // integer to ascii
     }
 
     *(c+count) = '\0';
+}
+
+void h_cal_controller(float elev, float rudd, float ail, float sns){
+
+    /*pitch 제어*/
+    if (elev < 1 && elev > -1)// 히스테리시스를 고려함.
+    {
+        real_elev = 0.0;
+    }
+
+    /*roll 제어*/
+    if(rudd < 1 && rudd > -1){
+        real_rudd = 0.0;
+    }
+
+
+    /* yaw 제어 */
+    if (ail < 1 && ail > -1)  // yaw는 회전하면 그 회전한 각도를 타겟으로 각도가 바뀌어야 함.
+    {
+        real_ail = 0.0;
+    }
+
+    /*start and stop*/
+     if (sns < 1000.0){ //start
+         stop_n_start = 1;
+     }
+     else if(sns > 1900.0){ // stop
+         stop_n_start = -1;
+     }else{ // 중립
+         stop_n_start = 0;
+
+     }
+
 }
 
 #endif

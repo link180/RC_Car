@@ -173,11 +173,11 @@ static const t_isrFuncPTR s_vim_init[128U] =
     &phantomInterrupt,          /* Channel 101 */
     &phantomInterrupt,          /* Channel 102 */
     &phantomInterrupt,          /* Channel 103 */
-    &phantomInterrupt,          /* Channel 104 */
-    &phantomInterrupt,          /* Channel 105 */
-    &phantomInterrupt,          /* Channel 106 */
-    &phantomInterrupt,          /* Channel 107 */
-    &phantomInterrupt,          /* Channel 108 */
+    &ecap1Interrupt,      /* Channel 104 */
+    &ecap2Interrupt,      /* Channel 105 */
+    &ecap3nterrupt,      /* Channel 106 */
+    &ecap4Interrupt,      /* Channel 107 */
+    &ecap5Interrupt,      /* Channel 108 */
     &phantomInterrupt,          /* Channel 109 */
     &phantomInterrupt,          /* Channel 110 */
     &phantomInterrupt,          /* Channel 111 */
@@ -471,11 +471,11 @@ void vimInit(void)
                         | (uint32)((uint32)0U << 5U)
                         | (uint32)((uint32)0U << 6U)
                         | (uint32)((uint32)0U << 7U)
-                        | (uint32)((uint32)0U << 8U)
-                        | (uint32)((uint32)0U << 9U)
-                        | (uint32)((uint32)0U << 10U)
-                        | (uint32)((uint32)0U << 11U)
-                        | (uint32)((uint32)0U << 12U)
+                        | (uint32)((uint32)1U << 8U)
+                        | (uint32)((uint32)1U << 9U)
+                        | (uint32)((uint32)1U << 10U)
+                        | (uint32)((uint32)1U << 11U)
+                        | (uint32)((uint32)1U << 12U)
                         | (uint32)((uint32)0U << 13U)
                         | (uint32)((uint32)0U << 14U)
                         | (uint32)((uint32)0U << 15U)

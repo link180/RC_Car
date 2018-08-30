@@ -15,11 +15,13 @@ ASM_SRCS += \
 ../source/HL_sys_pmu.asm 
 
 C_SRCS += \
+../source/HL_ecap.c \
 ../source/HL_epc.c \
 ../source/HL_errata.c \
 ../source/HL_esm.c \
 ../source/HL_etpwm.c \
 ../source/HL_gio.c \
+../source/HL_het.c \
 ../source/HL_i2c.c \
 ../source/HL_nmpu.c \
 ../source/HL_notification.c \
@@ -36,11 +38,13 @@ C_SRCS += \
 ../source/HL_system.c 
 
 C_DEPS += \
+./source/HL_ecap.d \
 ./source/HL_epc.d \
 ./source/HL_errata.d \
 ./source/HL_esm.d \
 ./source/HL_etpwm.d \
 ./source/HL_gio.d \
+./source/HL_het.d \
 ./source/HL_i2c.d \
 ./source/HL_nmpu.d \
 ./source/HL_notification.d \
@@ -57,11 +61,13 @@ C_DEPS += \
 ./source/HL_system.d 
 
 OBJS += \
+./source/HL_ecap.obj \
 ./source/HL_epc.obj \
 ./source/HL_errata.obj \
 ./source/HL_esm.obj \
 ./source/HL_etpwm.obj \
 ./source/HL_gio.obj \
+./source/HL_het.obj \
 ./source/HL_i2c.obj \
 ./source/HL_nmpu.obj \
 ./source/HL_notification.obj \
@@ -88,11 +94,13 @@ ASM_DEPS += \
 ./source/HL_sys_pmu.d 
 
 OBJS__QUOTED += \
+"source\HL_ecap.obj" \
 "source\HL_epc.obj" \
 "source\HL_errata.obj" \
 "source\HL_esm.obj" \
 "source\HL_etpwm.obj" \
 "source\HL_gio.obj" \
+"source\HL_het.obj" \
 "source\HL_i2c.obj" \
 "source\HL_nmpu.obj" \
 "source\HL_notification.obj" \
@@ -113,11 +121,13 @@ OBJS__QUOTED += \
 "source\HL_system.obj" 
 
 C_DEPS__QUOTED += \
+"source\HL_ecap.d" \
 "source\HL_epc.d" \
 "source\HL_errata.d" \
 "source\HL_esm.d" \
 "source\HL_etpwm.d" \
 "source\HL_gio.d" \
+"source\HL_het.d" \
 "source\HL_i2c.d" \
 "source\HL_nmpu.d" \
 "source\HL_notification.d" \
@@ -140,11 +150,13 @@ ASM_DEPS__QUOTED += \
 "source\HL_sys_pmu.d" 
 
 C_SRCS__QUOTED += \
+"../source/HL_ecap.c" \
 "../source/HL_epc.c" \
 "../source/HL_errata.c" \
 "../source/HL_esm.c" \
 "../source/HL_etpwm.c" \
 "../source/HL_gio.c" \
+"../source/HL_het.c" \
 "../source/HL_i2c.c" \
 "../source/HL_nmpu.c" \
 "../source/HL_notification.c" \
