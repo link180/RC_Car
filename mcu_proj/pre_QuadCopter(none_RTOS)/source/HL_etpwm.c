@@ -455,6 +455,7 @@ void etpwmInit(void)
                       | (uint16)((uint16)1U << 12U));
 
 
+	etpwmStartTBCLK();
 
 /* USER CODE BEGIN (2) */
 /* USER CODE END */

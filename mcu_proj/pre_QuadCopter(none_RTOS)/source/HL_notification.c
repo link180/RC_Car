@@ -51,9 +51,11 @@
 #include "HL_esm.h"
 #include "HL_gio.h"
 #include "HL_sci.h"
+#include "HL_het.h"
 #include "HL_rti.h"
 #include "HL_i2c.h"
 #include "HL_etpwm.h"
+#include "HL_ecap.h"
 #include "HL_epc.h"
 #include "HL_sys_dma.h"
 
@@ -153,6 +155,36 @@ void sciNotification(sciBASE_t *sci, uint32 flags)
 /* USER CODE BEGIN (33) */
 /* USER CODE END */
 
+#pragma WEAK(pwmNotification)
+void pwmNotification(hetBASE_t * hetREG,uint32 pwm, uint32 notification)
+{
+/*  enter user code between the USER CODE BEGIN and USER CODE END. */
+/* USER CODE BEGIN (38) */
+/* USER CODE END */
+}
+
+/* USER CODE BEGIN (39) */
+/* USER CODE END */
+#pragma WEAK(edgeNotification)
+void edgeNotification(hetBASE_t * hetREG,uint32 edge)
+{
+/*  enter user code between the USER CODE BEGIN and USER CODE END. */
+/* USER CODE BEGIN (40) */
+/* USER CODE END */
+}
+
+/* USER CODE BEGIN (41) */
+/* USER CODE END */
+#pragma WEAK(hetNotification)
+void hetNotification(hetBASE_t *het, uint32 offset)
+{
+/*  enter user code between the USER CODE BEGIN and USER CODE END. */
+/* USER CODE BEGIN (42) */
+/* USER CODE END */
+}
+
+/* USER CODE BEGIN (43) */
+/* USER CODE END */
 
 
 /* USER CODE BEGIN (46) */
@@ -183,6 +215,15 @@ void etpwmTripNotification(etpwmBASE_t *node,uint16 flags)
 /* USER CODE BEGIN (53) */
 /* USER CODE END */
 
+#pragma WEAK(ecapNotification)
+void ecapNotification(ecapBASE_t *ecap,uint16 flags)
+{
+/*  enter user code between the USER CODE BEGIN and USER CODE END. */
+/* USER CODE BEGIN (54) */
+/* USER CODE END */
+}
+/* USER CODE BEGIN (55) */
+/* USER CODE END */
 
 /* USER CODE BEGIN (56) */
 /* USER CODE END */

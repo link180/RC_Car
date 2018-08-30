@@ -15,6 +15,9 @@
 #include "HL_sci.h"
 #include "HL_gio.h"
 #include "HL_i2c.h"
+#include "Hl_rti.h"
+#include "HL_het.h"
+#include "HL_ecap.h"
 #include <string.h>
 #include <stdio.h>
 #include <math.h>
@@ -45,9 +48,14 @@
 #define D2R  0.0174533
 #define GYRO2DEGREE_PER_SEC  65.5
 
-double pitch;
-double roll;
-double yaw;
+float pitch;
+float roll;
+float yaw;
+
+/*조종기에서 사용하기위한 용도*/
+float init_pitch;
+float init_roll;
+float init_yaw;
 
 //Magnetometer Registers
 #define AK8963_ADDRESS   0x0C
@@ -733,22 +741,6 @@ void get_YPR(void){
     pitch = angle_pitch_acc * D2R;
     yaw += g_xyz[2] * t * D2R;
 
-//    angle_pitch_acc -= 0.0;                                              //Accelerometer calibration value for pitch
-//    angle_roll_acc -= 0.0;                                               //Accelerometer calibration value for roll
-
-//    if(set_gyro_angles){                                                 //If the IMU is already started
-//      angle_pitch = angle_pitch * 0.9996 + angle_pitch_acc * 0.0004;     //Correct the drift of the gyro pitch angle with the accelerometer pitch angle
-//      angle_roll = angle_roll * 0.9996 + angle_roll_acc * 0.0004;        //Correct the drift of the gyro roll angle with the accelerometer roll angle
-//    }
-//    else{                                                                //At first start
-//      angle_pitch = angle_pitch_acc;                                     //Set the gyro pitch angle equal to the accelerometer pitch angle
-//      angle_roll = angle_roll_acc;                                       //Set the gyro roll angle equal to the accelerometer roll angle
-//      set_gyro_angles = true;                                            //Set the IMU started flag
-//    }
-//
-//    //To dampen the pitch and roll angles a complementary filter is used
-//    angle_pitch_output = angle_pitch_output * 0.9 + angle_pitch * 0.1;   //Take 90% of the output pitch value and add 10% of the raw pitch value
-//    angle_roll_output = angle_roll_output * 0.9 + angle_roll * 0.1;      //Take 90% of the output roll value and add 10% of the raw roll value
 
 }
 void readAccelData(int16_t* destination)
