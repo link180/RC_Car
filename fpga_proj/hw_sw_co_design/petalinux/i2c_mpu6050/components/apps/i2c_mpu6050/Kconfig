@@ -1,0 +1,14 @@
+###############################################################################
+# Please modify this file if you want to configure your own application.
+# You can uncommon and/or change the following Kconfig elements.
+###############################################################################
+
+
+if ROOTFS_COMPONENT_APPS_NAME_I2C_MPU6050
+	comment "No additional options for I2C_MPU6050"
+
+# 	config APPS_I2C_MPU6050_OPTION0
+#	bool "option0"
+#	help
+#	  Help text
+endif
